@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01A857C5F5908F1526D01CCE /* Pods_Dressee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA6F9D043A3BAD61DEDCE4 /* Pods_Dressee.framework */; };
-		EC0AC9091C797769008E9103 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9081C797769008E9103 /* ThirdViewController.swift */; };
 		EC0AC90B1C7978E4008E9103 /* TodayOufit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */; };
 		EC0AC90F1C799B9D008E9103 /* OutfitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */; };
 		EC0AC9141C799D2A008E9103 /* DisplayOutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */; };
@@ -45,7 +44,6 @@
 		429AF5DF03B3C8643F75B6B8 /* Pods-Dressee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dressee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dressee/Pods-Dressee.debug.xcconfig"; sourceTree = "<group>"; };
 		CCB43A3D8A0F2F99A94747D2 /* Pods-Dressee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dressee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dressee/Pods-Dressee.release.xcconfig"; sourceTree = "<group>"; };
 		D8AA6F9D043A3BAD61DEDCE4 /* Pods_Dressee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dressee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC0AC9081C797769008E9103 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayOufit.swift; sourceTree = "<group>"; };
 		EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutfitCollectionViewController.swift; sourceTree = "<group>"; };
 		EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayOutfitViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 			children = (
 				EC29CF511C793F7400B0A674 /* FirstViewController.swift */,
 				EC29CF531C793F7400B0A674 /* SecondViewController.swift */,
-				EC0AC9081C797769008E9103 /* ThirdViewController.swift */,
 				EC0AC9171C79AD9C008E9103 /* WishList.swift */,
 			);
 			name = Controller;
@@ -371,7 +368,6 @@
 				EC29CF541C793F7400B0A674 /* SecondViewController.swift in Sources */,
 				EC29CF501C793F7400B0A674 /* AppDelegate.swift in Sources */,
 				EC29CF521C793F7400B0A674 /* FirstViewController.swift in Sources */,
-				EC0AC9091C797769008E9103 /* ThirdViewController.swift in Sources */,
 				EC0AC90B1C7978E4008E9103 /* TodayOufit.swift in Sources */,
 				EC0AC90F1C799B9D008E9103 /* OutfitCollectionViewController.swift in Sources */,
 				EC0AC9201C79BAAD008E9103 /* WishListPictures.swift in Sources */,

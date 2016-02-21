@@ -9,7 +9,5 @@
 import UIKit
 
 class WeatherDisplayCellController: UITableViewCell {
-    
-    
-    
+    @IBOutlet weak var weatherPerHour: UIImageView!
 }

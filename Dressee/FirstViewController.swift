@@ -12,9 +12,7 @@ import EventKit
 
 class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate {
 
-    @IBOutlet weak var displayOutfit: UIView!
-    @IBOutlet weak var needPermissionView: UIView!
-    @IBOutlet weak var calendarsTableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     
     var todaysOutfit: TodayOutfit? = nil
@@ -38,15 +36,14 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
 //        }
         
         checkCalendarAuthorizationStatus()
-        needPermissionView.hidden = true
-        
+        self.tableView.reloadData()
     }
 
 
     @IBAction func createNewOutlet(sender: AnyObject){
         SweetAlert().showAlert("Good job!", subTitle: "Let's Build Your Closet", style: AlertStyle.Success)
 
-        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("ThirdViewController") as! ThirdViewController
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
         presentViewController(controller, animated: true, completion: nil)
     }
 
@@ -61,13 +58,9 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         case EKAuthorizationStatus.Authorized:
             // Things are in line with being able to show the calendars in the table view
             loadCalendars()
-            refreshTableView()
         case EKAuthorizationStatus.Restricted, EKAuthorizationStatus.Denied:
             // We need to help them give us permission
             SweetAlert().showAlert("You don't garanted Access to Calendar", subTitle: "You file will permanently delete!", style: AlertStyle.Warning, buttonTitle:"Dismiss")
-            self.needPermissionView.hidden = false
-            self.needPermissionView.fadeIn()
-
         }
     }
     
@@ -78,12 +71,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
             if accessGranted == true {
                 dispatch_async(dispatch_get_main_queue(), {
                     self.loadCalendars()
-                    self.refreshTableView()
-                })
-            } else {
-                dispatch_async(dispatch_get_main_queue(), {
-                    self.needPermissionView.hidden = false
-                    self.needPermissionView.fadeIn()
+                    self.tableView.reloadData()
                 })
             }
         })
@@ -92,10 +80,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     func loadCalendars() {
         self.calendars = eventStore.calendarsForEntityType(EKEntityType.Event)
     }
-    func refreshTableView() {
-        calendarsTableView.hidden = false
-        calendarsTableView.reloadData()
-    }
+
     
     /* Helper: alert display function */
     func alertOnFailure(title: String!, message: String!){

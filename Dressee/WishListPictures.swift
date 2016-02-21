@@ -10,8 +10,7 @@ import UIKit
 
 struct WishListPictures {
     
-    static var topPiece = UIImage()
-    static var middlePiece = UIImage()
-    static var lowerPiece = UIImage()
-    
+    var topPiece: UIImage!
+    var middlePiece: UIImage!
+    var lowerPiece: UIImage!
 }

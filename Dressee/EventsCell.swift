@@ -9,5 +9,8 @@
 import UIKit
 
 class EventsCell: UITableViewCell {
-    @IBOutlet weak var displayEvent: UILabel!
+    
+    @IBOutlet weak var displayEventTitle: UIButton!
+    @IBOutlet weak var displayEventLocalization: UIButton!
+    @IBOutlet weak var displayEventStartingDate: UIButton!
 }
