@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '03C1A49B5C4B1261C97CACB5'
+               BlueprintIdentifier = 'FE2E1CBB529971A7133B4092'
                BlueprintName = 'BRYSerialAnimationQueue'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'BRYSerialAnimationQueue.framework'>

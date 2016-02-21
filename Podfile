@@ -9,7 +9,8 @@ use_frameworks!
 target 'Dressee' do
     pod 'JTFadingInfoView'
     pod 'SSBouncyButton', '~> 1.0'
-    pod 'RAMAnimatedTabBarController', '~> 1.1.1'
+    pod 'ALCameraViewController'
+    pod 'RAMAnimatedTabBarController', '~> 1.1.'
 end
 
 target 'DresseeTests' do

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '96ED417370BBD46470C27D5F'
+               BlueprintIdentifier = 'C613B5F8A9C83BF7A7853EE2'
                BlueprintName = 'JTFadingInfoView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'JTFadingInfoView.framework'>

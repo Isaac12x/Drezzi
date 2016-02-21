@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="16" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Drezzi" id="anp-a4-r5b">
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="GOz-Cv-dbw">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="GOz-Cv-dbw">
                                             <connections>
                                                 <action selector="createNewOutlet:" destination="9pv-A4-QxB" id="RiL-1Y-xVs"/>
                                             </connections>
@@ -30,81 +30,73 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFK-Ym-4Ri">
-                                <rect key="frame" x="0.0" y="383" width="600" height="168"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFR-4n-3BI">
-                                <rect key="frame" x="0.0" y="60" width="600" height="315"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTC-3h-TZq">
+                                <rect key="frame" x="0.0" y="60" width="600" height="491"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRg-xu-Q7C">
-                                        <rect key="frame" x="110" y="119" width="390" height="64"/>
-                                        <color key="backgroundColor" red="0.49946301462426285" green="0.88223607203963539" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="64" id="I7f-Lg-Y0m"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                        <state key="normal" title="Perfect Outfit Creator"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCh-gr-v8s" customClass="SSBouncyButton">
-                                        <rect key="frame" x="110" y="26" width="390" height="67"/>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCh-gr-v8s" customClass="SSBouncyButton">
+                                        <rect key="frame" x="115" y="35" width="390" height="64"/>
                                         <color key="backgroundColor" red="0.81150017268664298" green="0.95048952679638143" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="67" id="UO5-yg-uzE"/>
+                                            <constraint firstAttribute="height" constant="64" id="2Z8-LS-A63"/>
+                                            <constraint firstAttribute="width" constant="390" id="WWi-Nn-LVV"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Create Your Outfit">
-                                            <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title=" Select Outfit">
                                             <color key="titleShadowColor" red="1" green="0.97756129128102465" blue="0.97030267366276668" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRg-xu-Q7C">
+                                        <rect key="frame" x="115" y="118" width="390" height="64"/>
+                                        <color key="backgroundColor" red="0.49946301462426285" green="0.88223607203963539" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="Bqa-pW-AZ3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="Perfect Outfit Creator"/>
+                                    </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="JCh-gr-v8s" secondAttribute="trailing" id="3Ce-Ph-PGn"/>
-                                    <constraint firstItem="JCh-gr-v8s" firstAttribute="leading" secondItem="nFR-4n-3BI" secondAttribute="leading" id="5DO-NL-aUl"/>
-                                    <constraint firstItem="vRg-xu-Q7C" firstAttribute="leading" secondItem="JCh-gr-v8s" secondAttribute="leading" id="N3k-CF-ipk"/>
-                                    <constraint firstItem="vRg-xu-Q7C" firstAttribute="trailing" secondItem="JCh-gr-v8s" secondAttribute="trailing" id="NMr-tq-kaQ"/>
-                                    <constraint firstItem="vRg-xu-Q7C" firstAttribute="top" secondItem="JCh-gr-v8s" secondAttribute="bottom" constant="24" id="QyK-S7-cQA"/>
-                                    <constraint firstItem="JCh-gr-v8s" firstAttribute="top" secondItem="nFR-4n-3BI" secondAttribute="top" constant="26" id="cnY-2p-bS1"/>
+                                    <constraint firstItem="JCh-gr-v8s" firstAttribute="leading" secondItem="pTC-3h-TZq" secondAttribute="leading" constant="115" id="HfF-gF-n2J"/>
+                                    <constraint firstItem="JCh-gr-v8s" firstAttribute="leading" secondItem="vRg-xu-Q7C" secondAttribute="leading" id="VLy-Rv-dvW"/>
+                                    <constraint firstAttribute="bottom" secondItem="vRg-xu-Q7C" secondAttribute="bottom" constant="309" id="hhs-4V-Epu"/>
+                                    <constraint firstItem="vRg-xu-Q7C" firstAttribute="top" secondItem="JCh-gr-v8s" secondAttribute="bottom" constant="19" id="kPK-e3-xzA"/>
+                                    <constraint firstItem="JCh-gr-v8s" firstAttribute="trailing" secondItem="vRg-xu-Q7C" secondAttribute="trailing" id="o1T-V8-4Ld"/>
+                                    <constraint firstAttribute="trailing" secondItem="JCh-gr-v8s" secondAttribute="trailing" constant="95" id="oyN-m3-4sv"/>
+                                    <constraint firstItem="JCh-gr-v8s" firstAttribute="top" secondItem="pTC-3h-TZq" secondAttribute="top" constant="35" id="sVb-LJ-Izs"/>
                                 </constraints>
-                            </view>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="EFK-Ym-4Ri" firstAttribute="bottom" secondItem="4ug-Mw-9AY" secondAttribute="top" id="2Mc-lK-jMY"/>
-                            <constraint firstItem="nFR-4n-3BI" firstAttribute="trailing" secondItem="EFK-Ym-4Ri" secondAttribute="trailing" id="7Pb-ir-rSl"/>
-                            <constraint firstAttribute="trailing" secondItem="nFR-4n-3BI" secondAttribute="trailing" id="8rR-kZ-gKc"/>
-                            <constraint firstItem="Xcc-TW-cnK" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="8vn-ft-Zst"/>
-                            <constraint firstItem="nFR-4n-3BI" firstAttribute="top" secondItem="Xcc-TW-cnK" secondAttribute="bottom" id="9Qe-pl-7pw"/>
-                            <constraint firstItem="Xcc-TW-cnK" firstAttribute="leading" secondItem="nFR-4n-3BI" secondAttribute="leading" id="CWu-9c-NIH"/>
-                            <constraint firstItem="Xcc-TW-cnK" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" constant="16" id="Khk-Vc-O6A"/>
-                            <constraint firstItem="EFK-Ym-4Ri" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="383" id="R65-q3-AAW"/>
-                            <constraint firstItem="EFK-Ym-4Ri" firstAttribute="top" secondItem="nFR-4n-3BI" secondAttribute="bottom" constant="8" symbolic="YES" id="gfq-Is-yPL"/>
-                            <constraint firstItem="EFK-Ym-4Ri" firstAttribute="leading" secondItem="nFR-4n-3BI" secondAttribute="leading" id="kru-ZH-AdN"/>
-                            <constraint firstItem="nFR-4n-3BI" firstAttribute="trailing" secondItem="Xcc-TW-cnK" secondAttribute="trailing" id="mdz-K7-Ca0"/>
+                            <constraint firstItem="Xcc-TW-cnK" firstAttribute="leading" secondItem="pTC-3h-TZq" secondAttribute="leading" id="3p7-wM-ETf"/>
+                            <constraint firstItem="pTC-3h-TZq" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Haw-Mr-SLR"/>
+                            <constraint firstItem="pTC-3h-TZq" firstAttribute="bottom" secondItem="4ug-Mw-9AY" secondAttribute="top" id="O9N-bF-uzb"/>
+                            <constraint firstItem="pTC-3h-TZq" firstAttribute="top" secondItem="Xcc-TW-cnK" secondAttribute="bottom" id="Zaz-TC-X7D"/>
+                            <constraint firstItem="Xcc-TW-cnK" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" constant="16" id="tyR-w3-hiT"/>
+                            <constraint firstItem="pTC-3h-TZq" firstAttribute="trailing" secondItem="Xcc-TW-cnK" secondAttribute="trailing" id="vRh-wc-klM"/>
+                            <constraint firstAttribute="trailing" secondItem="pTC-3h-TZq" secondAttribute="trailing" id="xRr-b0-hcM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="acW-dT-cKf" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" image="Calendar" selectedImage="Calendar" id="acW-dT-cKf" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
-                            <outlet property="animation" destination="i9W-Hd-x0k" id="G5q-WN-WSY"/>
+                            <outlet property="animation" destination="qjX-0W-F5w" id="qUz-gK-Jcx"/>
                         </connections>
                     </tabBarItem>
                     <connections>
                         <outlet property="createYourOutfit" destination="JCh-gr-v8s" id="MUW-2g-OiY"/>
-                        <outlet property="displayOutfit" destination="nFR-4n-3BI" id="lx4-YY-K1t"/>
                         <outlet property="perfectOutFitCreator" destination="vRg-xu-Q7C" id="mJh-KU-bHj"/>
+                        <outlet property="scrollView" destination="pTC-3h-TZq" id="gs7-fz-Bir"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
-                <customObject id="i9W-Hd-x0k" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarController"/>
+                <customObject id="qjX-0W-F5w" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="716" y="-1014"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Closet-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Dressee" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,33 +112,12 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Drezzi" id="Fa1-bY-lRY">
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Qfb-UQ-MNi"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Qfb-UQ-MNi"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jxr-cx-s4S">
-                                <rect key="frame" x="1" y="405" width="600" height="145"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Import images from:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JkZ-p8-oQU">
-                                        <rect key="frame" x="0.0" y="32" width="600" height="64"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="JkZ-p8-oQU" firstAttribute="top" secondItem="Jxr-cx-s4S" secondAttribute="top" constant="32" id="W5R-tD-SJl"/>
-                                    <constraint firstAttribute="bottom" secondItem="JkZ-p8-oQU" secondAttribute="bottom" constant="49" id="h24-yA-Ovn"/>
-                                    <constraint firstItem="JkZ-p8-oQU" firstAttribute="leading" secondItem="Jxr-cx-s4S" secondAttribute="leading" id="rWL-pj-76e"/>
-                                    <constraint firstAttribute="trailing" secondItem="JkZ-p8-oQU" secondAttribute="trailing" id="u12-n3-Vt8"/>
-                                </constraints>
-                            </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vI7-NU-hi8">
-                                <rect key="frame" x="0.0" y="64" width="600" height="333"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="333" id="tKd-oS-0zm"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hfS-sF-T90">
                                     <size key="itemSize" width="132" height="232"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -154,45 +125,55 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wHb-aZ-UDs">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OutfitCell" id="wHb-aZ-UDs">
                                         <rect key="frame" x="0.0" y="0.0" width="132" height="232"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="132" height="232"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DUa-4V-ffb">
-                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="126"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DUa-4V-ffb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="132" height="232"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="DUa-4V-ffb" secondAttribute="bottom" id="Y87-W2-PIX"/>
+                                            <constraint firstAttribute="trailing" secondItem="DUa-4V-ffb" secondAttribute="trailing" id="pZg-Mp-lpA"/>
+                                            <constraint firstItem="DUa-4V-ffb" firstAttribute="leading" secondItem="wHb-aZ-UDs" secondAttribute="leading" id="qpL-7s-GeN"/>
+                                            <constraint firstItem="DUa-4V-ffb" firstAttribute="top" secondItem="wHb-aZ-UDs" secondAttribute="top" id="y5M-IX-SLW"/>
+                                        </constraints>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="s6h-bV-n77" secondAttribute="trailing" constant="-20" id="0wP-wS-1Nx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Jxr-cx-s4S" secondAttribute="trailing" constant="-21" id="2Fb-Ax-zy8"/>
-                            <constraint firstItem="vI7-NU-hi8" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="2In-9i-Y1o"/>
-                            <constraint firstItem="s6h-bV-n77" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="8yE-eS-9yG"/>
-                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="Jxr-cx-s4S" secondAttribute="bottom" constant="1" id="EAd-2P-MFp"/>
-                            <constraint firstItem="vI7-NU-hi8" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" constant="64" id="M59-fF-RSO"/>
-                            <constraint firstItem="Jxr-cx-s4S" firstAttribute="top" secondItem="vI7-NU-hi8" secondAttribute="bottom" constant="8" id="krt-S1-o1X"/>
-                            <constraint firstItem="vI7-NU-hi8" firstAttribute="top" secondItem="s6h-bV-n77" secondAttribute="bottom" id="ugd-BE-mwW"/>
-                            <constraint firstItem="Jxr-cx-s4S" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-19" id="vKV-bo-wQT"/>
-                            <constraint firstItem="s6h-bV-n77" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="vXm-2o-CL2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="vI7-NU-hi8" secondAttribute="trailing" constant="-20" id="xmL-qe-6UU"/>
+                            <constraint firstItem="vI7-NU-hi8" firstAttribute="trailing" secondItem="s6h-bV-n77" secondAttribute="trailing" id="5NJ-sg-fMB"/>
+                            <constraint firstItem="s6h-bV-n77" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="Ma8-OV-mnk"/>
+                            <constraint firstItem="vI7-NU-hi8" firstAttribute="top" secondItem="s6h-bV-n77" secondAttribute="bottom" id="ND7-fL-ftO"/>
+                            <constraint firstItem="vI7-NU-hi8" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="Z1Z-X6-zHO"/>
+                            <constraint firstItem="vI7-NU-hi8" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="cNc-TZ-dV1"/>
+                            <constraint firstAttribute="trailing" secondItem="s6h-bV-n77" secondAttribute="trailing" id="gh7-bw-gAu"/>
+                            <constraint firstItem="s6h-bV-n77" firstAttribute="leading" secondItem="vI7-NU-hi8" secondAttribute="leading" id="vwl-RJ-Xo1"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="history" id="cPa-gy-q4n" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController"/>
+                    <tabBarItem key="tabBarItem" title="Closet" image="Bookmark" selectedImage="Bookmark" id="cPa-gy-q4n" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="Gbj-5e-9hh" id="1GB-4r-cey"/>
+                        </connections>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="flowLayout" destination="hfS-sF-T90" id="cIp-v7-bak"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+                <customObject id="Gbj-5e-9hh" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="716" y="-316"/>
         </scene>
-        <!--View Controller-->
+        <!--Setting-->
         <scene sceneID="xDe-Rq-cdl">
             <objects>
                 <viewController id="uUV-xz-OTk" sceneMemberID="viewController">
@@ -208,7 +189,7 @@
                                 <rect key="frame" x="0.0" y="15" width="600" height="44"/>
                                 <items>
                                     <navigationItem title="Drezzi" id="XdB-NT-wdd">
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="KBf-9Z-IOT"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="KBf-9Z-IOT"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -220,11 +201,16 @@
                             <constraint firstAttribute="trailingMargin" secondItem="vfC-ee-0uN" secondAttribute="trailing" constant="-20" id="wQa-WN-2yz"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="F0e-nm-G2n" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController"/>
+                    <tabBarItem key="tabBarItem" title="Setting" image="Toolbox" selectedImage="Toolbox" id="F0e-nm-G2n" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="pps-hP-t8c" id="Ept-E8-FBg"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbn-cH-GeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="pps-hP-t8c" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="716" y="368"/>
+            <point key="canvasLocation" x="706" y="474"/>
         </scene>
         <!--Animated Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -247,4 +233,9 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bookmark" width="36" height="36"/>
+        <image name="Calendar" width="36" height="36"/>
+        <image name="Toolbox" width="36" height="36"/>
+    </resources>
 </document>

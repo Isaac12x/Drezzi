@@ -6,12 +6,8 @@
 //  Copyright © 2016 sfama. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class TodayOutfit{
-    
-    var topPiece = ""
-    var middlePiece = ""
-    var lowerPiece = ""
-    
+struct TodayOutfit {
+    var Picture: UIImage!
 }

@@ -7,69 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0018F9B0750326A42BBD8054FA4E8C1F /* UIImage+BetterAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D77A747CF2E88FBFEDF2412E75381D1 /* UIImage+BetterAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ECFE60EB723B29F6384704D43DD61B8 /* UIImage+BetterAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EB81BFF4586D4FDED9F853663B3F07 /* UIImage+BetterAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		221D76C6935EBD8FAAB1E6478DFC536A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		242CC24461134BBF1BE0D4A9E32F7B98 /* SSBouncyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F33309D96B5C8204708D425CD5BD62B0 /* SSBouncyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2628A5FB3A1558EEB72E96510EBE98E1 /* BRYSerialAnimationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 436EA615AA919C206DCA003779C9C463 /* BRYSerialAnimationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05823E8202A78A1945D14C72391A1029 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D99B0971628A528088693548CD9ACF /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06461E1BAB5D44649BA6615A5E6799AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DEA8D96C0B3480645C577BD187775D /* UIKit.framework */; };
+		08AA2BD62E40437AA8107796A5B7B8F5 /* UIImage_BetterAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF72512CAF489C6515E17EAC85ADCB9 /* UIImage_BetterAdditions.framework */; };
+		0A3272E33C46754A3BC238EAD01DDDA2 /* SSBouncyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17A57635F845B560B82851793C48DD /* SSBouncyButton-dummy.m */; };
+		0C0D6FC02BB6D5C95B26C0B082149877 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068CE01C01EA9F128E226A1AAECE0F53 /* ImageExtensions.swift */; };
+		1369AFC6A1D7296E6D9691A6EA5A01C5 /* UIImage+BetterAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D258CB805DCCA5345581C971FA4AD9B /* UIImage+BetterAdditions-dummy.m */; };
+		1A6F23B103E6A1A1B4BFDA76501F4813 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D163274CB18342CFB60E52695F721B /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B2174C7F02D5808342676EBB08674F5 /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845EEF2D3822AC7E742242615689619 /* CameraShot.swift */; };
+		1FFDDD91C4587287996D3FF5DDD15454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
+		2191CBF6BFBC0362701AD8B7923EC1D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295194FAA3C3ADE3F5BAF156842D9D3 /* QuartzCore.framework */; };
+		2628A5FB3A1558EEB72E96510EBE98E1 /* BRYSerialAnimationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 01500E31BE29B5FF415C0146AD3B240B /* BRYSerialAnimationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29077184BAC1AC97360A929FC9BFDA7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		2B2242CCD6375C60804FC9BB09E4AF32 /* UIImage_BetterAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF72512CAF489C6515E17EAC85ADCB9 /* UIImage_BetterAdditions.framework */; };
-		3608CA7C5C60F4332EF6C580D7F7853E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		3B7BC585E01EA8310D481678A727607D /* Pods-Dressee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C75DC9491FB39E524CA578E21D4A50 /* Pods-Dressee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D893FF4A0BF5A4532EF03D952253F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		40815D0393DEF20907CD7CA3A2432483 /* SSBouncyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9B9F2CF26B205BFF52A0613C6593E9 /* SSBouncyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		408F73F0645BC4E4B84A0C032B763D34 /* SSBouncyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3048D581470800BB2615D5B2C37F6 /* SSBouncyButton.m */; };
-		50241D7E1B00A5A67A53B673486B3DFD /* UIColor-Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F2C4A67B4107E74C72372E219E2269 /* UIColor-Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335813F3759395A458C5A12882B50EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
+		353566365FB09F678B18A6FA8C1CD2BF /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B9A0F0928665C54DF5F061199B922B /* ImageCell.swift */; };
+		3E652B698DC307D1596CBC8F237343FF /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C837DBD8A263CD98838ED9A4DB640C0E /* RAMAnimatedTabBarController.swift */; };
+		4A668F5D5BC14DC88163D34AF0EF59F0 /* ALCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310F6441DAB3415F382E2B8BE03F3B5 /* ALCameraViewController.swift */; };
+		4AFC590B2C7904BEB0AB4514E6E5AF1B /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012000CD29EE7E584DE0D78AF1506499 /* ConfirmViewController.swift */; };
+		4B606A8E2959DCD88D346A0D44807439 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8249A815148899C651105F81823090C5 /* RAMBadge.swift */; };
+		4F815BCDAD826E7D6AC9E4ED2D0F6923 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE201038CCE57C156FC96C0D6416489D /* RAMFumeAnimation.swift */; };
 		52D35499322CDB7A2D64C513C99C2A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DEA8D96C0B3480645C577BD187775D /* UIKit.framework */; };
-		55C900637A87C8B2B3319490B442B3F5 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BDB0C105771AE0168EA8D4200B7F7C /* RAMFumeAnimation.swift */; };
-		5B683EE2734AC151A6B400631DF0827B /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD55BA90BBD80BCC115FA2FB33BF329 /* RAMAnimatedTabBarController.swift */; };
-		5BBFF0A1B9E3E1CBD430AAACE3ED911D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		7366AD5DF06844D1A10DF15B84B31257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DEA8D96C0B3480645C577BD187775D /* UIKit.framework */; };
-		7692A1593D6258C88470D0132352C903 /* JTFadingInfoView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9871804E86FEDC041055BA3DF50FDEBC /* JTFadingInfoView-dummy.m */; };
-		76B1597CDC2935E5BE4F42F9F23F9E2F /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD89A5062D528F9F1D48481D8A0C4BE /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E22707AF4C2C1BFD924844231060351 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC40383706FFACAF7D09EE49C9EAE39 /* RAMFrameItemAnimation.swift */; };
-		7F5C701CC2A11F612E67824327ACC48D /* BRYSerialAnimationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 654E3D19F8FE6CB4B3074FC823676241 /* BRYSerialAnimationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		54633489EEE6123964F59CDE6F1DDF8C /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C39FF4ACEBB31642597AE703BDD87C /* ConfirmViewController.xib */; };
+		59250C083B55C4ECB2F2BEF55FDB75A4 /* SSBouncyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEE335C2E3FD1E1DAA4E15F30F502C /* SSBouncyButton.m */; };
+		5C6EDF9B181521F2BF1BCC97CFE4F46A /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CFE315721ED05DC2CA48959D8B1165 /* SingleImageFetcher.swift */; };
+		5DECC4D4B9FAE6F370CA9F28DCECB87E /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067E5614A91B5F812B89E34EBDA9C33 /* PermissionsView.swift */; };
+		6FF4292F6DDA2E10C66512D1D3F6056D /* UIColor-Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA2DB01BC317FE680731D813CB41E87 /* UIColor-Hex-dummy.m */; };
+		7692A1593D6258C88470D0132352C903 /* JTFadingInfoView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5BBBF599D9BD58A6AD3118BB6C96A9 /* JTFadingInfoView-dummy.m */; };
+		77D173607204F6B026F3FA9BE8A157A3 /* BRYSerialAnimationQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB26B62E0E1D2E7BE16438D64569941 /* BRYSerialAnimationQueue.framework */; };
+		787DB7B408D0B8C74A59218A7635A734 /* UIImage+BetterAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309D0E0C756FA41BF4B6BE416F73215F /* UIImage+BetterAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6F7AE2107F6109BF43F92A36EA8A21 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C2ADBCA3E338CB68657F2C7302843 /* PhotoLibraryViewController.swift */; };
+		7F5C701CC2A11F612E67824327ACC48D /* BRYSerialAnimationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA95AC919DAD16A2DEC7CF65201E73 /* BRYSerialAnimationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83A813267CBD32C89E87E822D070BCD5 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A604993F10629CADD4F3066C8E513A /* CropOverlay.swift */; };
+		84C423636DE3315EBE475AB29982B99F /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2CBF35B9DF589D0A770FDD5E7B55DB /* RAMItemAnimationProtocol.swift */; };
+		898AB3B9ED4D144207E95A7A8E3D2418 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDC04ED62601A3D291F3B5EA0BD2CC /* CameraGlobals.swift */; };
 		8C58371B67130268094C9025BE1817C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		8EB05BB3B3E7110E0AC532C9C4A0DB3C /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF02548702BF178F460279B2EBA00293 /* RAMBounceAnimation.swift */; };
-		9BC29494322F00D922E0D0EE28A28055 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA904C86DAD741F2A5C93414110F2F /* RAMRotationAnimation.swift */; };
-		9E38C0015B5C556637A365A3609AA1EA /* BRYSerialAnimationQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB26B62E0E1D2E7BE16438D64569941 /* BRYSerialAnimationQueue.framework */; };
-		A2631EAA56600F4D9D2A1CED93AEF892 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6511B0BEF6FC44D3DC8B01B858A5EE0 /* RAMTransitionItemAnimations.swift */; };
-		A5A96A0BD3BA96B7E1BF4E43509397C9 /* SSBouncyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098866AA65DD346954435580772A9939 /* SSBouncyButton-dummy.m */; };
-		AA14F58A717BA0E3DA8839820914C701 /* JTFadingInfoView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB822C3FD2C5E2EF9D03EDD3D2F41821 /* JTFadingInfoView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC423A185D887ED1C68B891025D1FBDA /* JTFadingInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A03E0EF7F2B2A0894574089ECA36E57 /* JTFadingInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADE9B564FA5812691FFE7B19ACCEA6F0 /* BRYSerialAnimationQueue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5D6D56425B389D7C056636AD99C611 /* BRYSerialAnimationQueue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0C034E4C1478DF84A130C43CA68123B /* UIColor_Hex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FF64A45BF68311248DFA0F8E2EA33F /* UIColor_Hex.framework */; };
-		B20AD866E2596CC6437BFEE6F105B4DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295194FAA3C3ADE3F5BAF156842D9D3 /* QuartzCore.framework */; };
-		BB780A708271F232EDD46713FA9845D1 /* UIColor-Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1297D73BC24F93AC67E22E8238BEF224 /* UIColor-Hex-dummy.m */; };
-		BBCA134AE557B0197EF437C991A3AE51 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = AF48EB5180059E55FAAA0C218E284C9F /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BBEDCF592E3F15C83388D330B78412AD /* UIImage+BetterAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE200CC15DC8B219D77DFC3AF38F109 /* UIImage+BetterAdditions-dummy.m */; };
-		C0A1DE3BB8AAB2D4C5A007AA3E7E7D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
-		C16FA257CFF84C0A593C3F5DDB9E37DE /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E4EB68AC0C1C8B0639885BE2536D14 /* RAMAnimatedTabBarController-dummy.m */; };
-		C1B54D2AFF42E18C87B5FB6D42422EE3 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E8E856AD17A394E9E783DE209838B0 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C26A65B2B592FBB35699A2712570CC38 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE9B3D3F1F3DD69E8E7983F3703DDA1 /* RAMBadge.swift */; };
-		C35D5B14307BE7B68C659CD39B2DE97A /* BRYSerialAnimationQueue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B933685EFB6CD95BCEECF4A72A607D1D /* BRYSerialAnimationQueue-dummy.m */; };
-		C9309EDEACAC2BD76C6A2A136A96F516 /* UIImage+BetterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 953000A3927F373BFE6B8A280D15B593 /* UIImage+BetterAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D53DFA9898ED1782B3C18B362C739137 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E0D39384DE5F13C457997A022856B /* RAMItemAnimationProtocol.swift */; };
-		DD29B2F6670E24AE798723B6227DA77A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DEA8D96C0B3480645C577BD187775D /* UIKit.framework */; };
-		EC572454BC938AEE71BC45A66FCB3DDA /* Pods-Dressee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CF5E0C8A9A6FD632B2984C2BDB17B1 /* Pods-Dressee-dummy.m */; };
-		F200B4818444F283008F06A6DE51AAA1 /* JTFadingInfoView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3910265F86186BA39E7AA26F44ED1D47 /* JTFadingInfoView.bundle */; };
-		F944FA516774ED94867CC5129BCFD562 /* JTFadingInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6184A42FACDA1E6783ACD0916DD20A4A /* JTFadingInfoView.m */; };
+		8FE0F1D2D47ACC9D69DB558E1014178D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DEA8D96C0B3480645C577BD187775D /* UIKit.framework */; };
+		919689465A9182C955668910F32023D9 /* SSBouncyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B54F1EF4EDA8A192546DC6CF96E942F /* SSBouncyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9638118D370A70E291B066C98805E5A8 /* UIColor_Hex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FF64A45BF68311248DFA0F8E2EA33F /* UIColor_Hex.framework */; };
+		9AC9DE44A9EEB39F4B231C798AFF5C38 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B5D209B6CD2BA8A616EDEC11B56411 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E21CF2E60672EE89A9082537AADD38F /* SSBouncyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF20CDB22551009B46EA6EB613413C7 /* SSBouncyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A026B2D65416E9D68CC404878234DB6B /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40166AB3A2960BB592EB895525F2CA20 /* ALCameraViewController-dummy.m */; };
+		AA14F58A717BA0E3DA8839820914C701 /* JTFadingInfoView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 284C645C81A4C2B57A865149920B5F29 /* JTFadingInfoView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE3E19D93547737FABE755B23BA53B4 /* Pods-Dressee-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CF5E0C8A9A6FD632B2984C2BDB17B1 /* Pods-Dressee-dummy.m */; };
+		AC423A185D887ED1C68B891025D1FBDA /* JTFadingInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7A3E985C5D61616B6960451F9D3525 /* JTFadingInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7B80BF511DD3BBDF6AEA744EB74582 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1C8500AD863766C306726B2885F1C /* ImageFetcher.swift */; };
+		ADE9B564FA5812691FFE7B19ACCEA6F0 /* BRYSerialAnimationQueue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AD3E6EA7A1AADD9DF33E8830D95D1B /* BRYSerialAnimationQueue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04DB0D408F861563758F3D442F51B1E /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E232FCFD4751001BC934D707EBB3F27 /* CameraView.strings */; };
+		B3558A5FB14BC28B3ED60D606E651A3A /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA81BE6968A2076212F988E8C164B21 /* RAMFrameItemAnimation.swift */; };
+		B37E7DAF6936433119BD2C5CA7CA8111 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 626C7E681C41EA1A04A096F40CF4F542 /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFEAB604F386C9A8307F662206E8BE61 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB109660C0C42E29861F2401C97601 /* Utilities.swift */; };
+		C1468D2BC5CD64AF4C74D492E40DB36D /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D663582DBCEF1D9648898334A69766B /* RAMTransitionItemAnimations.swift */; };
+		C35D5B14307BE7B68C659CD39B2DE97A /* BRYSerialAnimationQueue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3953154E6F6140AF840D4D9911ABDD97 /* BRYSerialAnimationQueue-dummy.m */; };
+		CAB24321E632D841EAF21646B873EF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
+		D10C99E7D55851A8E7218E3A8880CBF1 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E3DE3C20C07AD6B49CEE05A1D5832C /* SingleImageSaver.swift */; };
+		D1AE2595A57760B714D09E0E5CEB86A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
+		D38430E7629A5CFEDA8FD7AC40ED17D8 /* ALCameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E9CC33AC1CD8E480A70DCE9D6EF73F /* ALCameraViewAssets.xcassets */; };
+		D7131466C20F352E6BB16E835801BC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
+		DA2E9BD55F73608364B980C00F32E8D0 /* UIImage+BetterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB999F94A8ACE050F8CD4227A69882F1 /* UIImage+BetterAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DA797475D020D9135E8952196AE25422 /* UIImage+BetterAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7673B5178CA74EE1831F58ED4DFB87 /* UIImage+BetterAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23116F6DC8CDC0A47C78307025BF18F /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7139F2C40D66FFC011C6A336752795 /* RAMBounceAnimation.swift */; };
+		E37D41115A608AD921DF2A009E74A72D /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9E311C720A9CCB434DDD402672B08C /* RAMRotationAnimation.swift */; };
+		E8609DD4757494B4BD75C5B22C76C8CE /* UIColor-Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 546CC1A8E2FD6C31B95B51C06D748FF9 /* UIColor-Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAB513B7B75C0D3F2B8237FDBA2095B3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56078D10D63FEAC55648D388897E4CED /* CameraView.swift */; };
+		EF7A409AC5C711049BD84630D179B0E9 /* Pods-Dressee-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C75DC9491FB39E524CA578E21D4A50 /* Pods-Dressee-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F200B4818444F283008F06A6DE51AAA1 /* JTFadingInfoView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B55752A5BACDD22BA8A71507A7EB0542 /* JTFadingInfoView.bundle */; };
+		F318E080BD9CA7819E34C8605A0F55D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */; };
+		F944FA516774ED94867CC5129BCFD562 /* JTFadingInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F429663D47EC81E480007DE279C96DE6 /* JTFadingInfoView.m */; };
+		FAC72C011CE97397F75309E327B97709 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E58B1C05CBE37D71E8DF13B3686BB /* RAMAnimatedTabBarController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		071F50419DF60F3BEA0ECB37F4691B47 /* PBXContainerItemProxy */ = {
+		3ED09E737A03C31531A838EE35DC8C03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4FE952A6C96E083F4718AE1F0B04191F;
-			remoteInfo = BRYSerialAnimationQueue;
+			remoteGlobalIDString = DEBAEFE738269C0B332F729FAFC62820;
+			remoteInfo = JTFadingInfoView;
 		};
-		47CE6E6BF67C3789E1157F997DEE9CCC /* PBXContainerItemProxy */ = {
+		59902F73A8A598DC7946F415A3EA867F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4FE952A6C96E083F4718AE1F0B04191F;
-			remoteInfo = BRYSerialAnimationQueue;
+			remoteGlobalIDString = 40D77135FB2C2BC2E7588FC6417F0393;
+			remoteInfo = "UIImage+BetterAdditions";
 		};
 		663D37E453B15C63A881A8970DD48BA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -78,152 +98,191 @@
 			remoteGlobalIDString = D0818B5067B841D4462677053A647101;
 			remoteInfo = "JTFadingInfoView-JTFadingInfoView";
 		};
-		8934C1242757FD44495660B5D38924F1 /* PBXContainerItemProxy */ = {
+		8DF6F71B11CB35AE3F17E1ADA1F02D5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEBAEFE738269C0B332F729FAFC62820;
-			remoteInfo = JTFadingInfoView;
-		};
-		8F98EF0CACBB1CCC83F79C355D318985 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34EFF23A5CB955EF0F37705A167495E1;
-			remoteInfo = SSBouncyButton;
-		};
-		BC5406C746734A44D63646FC5AADB23C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C2EE26A48D038ACF02934B0034844F6B;
+			remoteGlobalIDString = 40D77135FB2C2BC2E7588FC6417F0393;
 			remoteInfo = "UIImage+BetterAdditions";
 		};
-		D25B46BBEF9DAF8AFA622148B4E3BFC2 /* PBXContainerItemProxy */ = {
+		9829D835E7DCC04086BAE7C0E429FBE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4E81A46E666CB1929BE44B0C2AF3EF6;
+			remoteGlobalIDString = 4FE952A6C96E083F4718AE1F0B04191F;
+			remoteInfo = BRYSerialAnimationQueue;
+		};
+		99F93CDEAB2D5D97C5EFEC36DD1BB2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5E8F368050129FD3DB54CC88842903;
 			remoteInfo = "UIColor-Hex";
 		};
-		D3571E00C19BC5109F6AA49178A1B94E /* PBXContainerItemProxy */ = {
+		A789C70DC974E18FF3F71B3C8110CA43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C2EE26A48D038ACF02934B0034844F6B;
-			remoteInfo = "UIImage+BetterAdditions";
+			remoteGlobalIDString = 87330B1DCE9E3653334A1C392975BFB8;
+			remoteInfo = ALCameraViewController;
 		};
-		ECB84F245EF9A02960935B9F2E2277C7 /* PBXContainerItemProxy */ = {
+		A9C4F2CF482325D9F8249F71FE06BD80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F22A70727EE95F986BBA0F31711AFC6B;
+			remoteGlobalIDString = 4FE952A6C96E083F4718AE1F0B04191F;
+			remoteInfo = BRYSerialAnimationQueue;
+		};
+		DAC023ADA9BF89284D948AA4382334FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5E8F368050129FD3DB54CC88842903;
+			remoteInfo = "UIColor-Hex";
+		};
+		DBA6696EB00602250B1C98D2ED41089E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D342B0BEEA5C4164F37F9D2058ADE3;
 			remoteInfo = RAMAnimatedTabBarController;
 		};
-		F5547A029A5A69F3EEBFD05122063509 /* PBXContainerItemProxy */ = {
+		F9B949005AA8868C8C5722B8DD71E361 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4E81A46E666CB1929BE44B0C2AF3EF6;
-			remoteInfo = "UIColor-Hex";
+			remoteGlobalIDString = F7BCE996EBFDD88C9ED98FA2AD6870EB;
+			remoteInfo = SSBouncyButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03231E0B96D39A6EADC5531B8F90F175 /* JTFadingInfoView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTFadingInfoView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0754BB082853F2778AFB4583F374F612 /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0864080E636146364DAF78FA21B33522 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08FFB7219C815BCF63C7CA8E7CE18ED2 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
-		098866AA65DD346954435580772A9939 /* SSBouncyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSBouncyButton-dummy.m"; sourceTree = "<group>"; };
-		0BA7A47447432F6D2ACDFBDEE4A3CC83 /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BetterAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD867FAD17D9BF2B8F1CCC23A56B2BF /* UIColor-Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-prefix.pch"; sourceTree = "<group>"; };
-		0DD89A5062D528F9F1D48481D8A0C4BE /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
-		1297D73BC24F93AC67E22E8238BEF224 /* UIColor-Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Hex-dummy.m"; sourceTree = "<group>"; };
-		12E8078A4AE6A59091393F471637C923 /* BRYSerialAnimationQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-prefix.pch"; sourceTree = "<group>"; };
-		13952A6FF8CB65A222C27A0263AED461 /* BRYSerialAnimationQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BRYSerialAnimationQueue.modulemap; sourceTree = "<group>"; };
-		17B25F32F6B6945839DB224120398178 /* SSBouncyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSBouncyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19BDB0C105771AE0168EA8D4200B7F7C /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
-		1AC3048D581470800BB2615D5B2C37F6 /* SSBouncyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSBouncyButton.m; path = SSBouncyButton/SSBouncyButton.m; sourceTree = "<group>"; };
-		1C916D2F19F93E26CAC2C7AE2E864438 /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00AD3E6EA7A1AADD9DF33E8830D95D1B /* BRYSerialAnimationQueue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-umbrella.h"; sourceTree = "<group>"; };
+		012000CD29EE7E584DE0D78AF1506499 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		01500E31BE29B5FF415C0146AD3B240B /* BRYSerialAnimationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRYSerialAnimationQueue.h; path = Classes/BRYSerialAnimationQueue.h; sourceTree = "<group>"; };
+		01B5D209B6CD2BA8A616EDEC11B56411 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		03A604993F10629CADD4F3066C8E513A /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		041BF59A15EADD3FDA96A2BABE60A0CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CB109660C0C42E29861F2401C97601 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		06130E73413C57780A9A41A28503AC6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068CE01C01EA9F128E226A1AAECE0F53 /* ImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageExtensions.swift; path = ALCameraViewController/Utilities/ImageExtensions.swift; sourceTree = "<group>"; };
+		0833D3B9FEF7A149168D8647AC121C23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EBEE335C2E3FD1E1DAA4E15F30F502C /* SSBouncyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSBouncyButton.m; path = SSBouncyButton/SSBouncyButton.m; sourceTree = "<group>"; };
+		1040241387056249FE1E32B9660B255A /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1110F26E46F7A232139A39E47A674271 /* UIColor-Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor-Hex.modulemap"; sourceTree = "<group>"; };
+		1172051C9F5FAC60D3B7E4BC345AC2E8 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B2BB92BDCDBC893832DF19BF0AE1DD /* SSBouncyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSBouncyButton.modulemap; sourceTree = "<group>"; };
+		1EBA95AC919DAD16A2DEC7CF65201E73 /* BRYSerialAnimationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRYSerialAnimationQueue.m; path = Classes/BRYSerialAnimationQueue.m; sourceTree = "<group>"; };
+		21303599B7A238B70B3CDCEDC0ECE97B /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BetterAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DC128E3E30E07068232A790C5DC1C9 /* Pods-Dressee-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dressee-acknowledgements.plist"; sourceTree = "<group>"; };
-		24E4EB68AC0C1C8B0639885BE2536D14 /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
-		2B9EF5E213D0E6F7C4B1C6993B1B3BC3 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		322328B400868FEF81ACA5EB3974E69B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38E8E856AD17A394E9E783DE209838B0 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		3910265F86186BA39E7AA26F44ED1D47 /* JTFadingInfoView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTFadingInfoView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		41EB81BFF4586D4FDED9F853663B3F07 /* UIImage+BetterAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions.h"; sourceTree = "<group>"; };
-		436EA615AA919C206DCA003779C9C463 /* BRYSerialAnimationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRYSerialAnimationQueue.h; path = Classes/BRYSerialAnimationQueue.h; sourceTree = "<group>"; };
+		284C645C81A4C2B57A865149920B5F29 /* JTFadingInfoView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTFadingInfoView-umbrella.h"; sourceTree = "<group>"; };
+		2B5BBBF599D9BD58A6AD3118BB6C96A9 /* JTFadingInfoView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTFadingInfoView-dummy.m"; sourceTree = "<group>"; };
+		2D258CB805DCCA5345581C971FA4AD9B /* UIImage+BetterAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions-dummy.m"; sourceTree = "<group>"; };
+		309D0E0C756FA41BF4B6BE416F73215F /* UIImage+BetterAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-umbrella.h"; sourceTree = "<group>"; };
+		34744BE8CA95B1C2B8020F5C99570CEB /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
+		37C39FF4ACEBB31642597AE703BDD87C /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		3953154E6F6140AF840D4D9911ABDD97 /* BRYSerialAnimationQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRYSerialAnimationQueue-dummy.m"; sourceTree = "<group>"; };
+		3B54F1EF4EDA8A192546DC6CF96E942F /* SSBouncyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-umbrella.h"; sourceTree = "<group>"; };
+		40166AB3A2960BB592EB895525F2CA20 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		4239977A017DF5526485542B534EC59C /* UIImage+BetterAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-prefix.pch"; sourceTree = "<group>"; };
 		45CF5E0C8A9A6FD632B2984C2BDB17B1 /* Pods-Dressee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dressee-dummy.m"; sourceTree = "<group>"; };
-		4D5D6D56425B389D7C056636AD99C611 /* BRYSerialAnimationQueue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-umbrella.h"; sourceTree = "<group>"; };
-		4D77A747CF2E88FBFEDF2412E75381D1 /* UIImage+BetterAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-umbrella.h"; sourceTree = "<group>"; };
-		4EA4ED6DA33C360CC3376CB06B0245D8 /* SSBouncyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSBouncyButton.modulemap; sourceTree = "<group>"; };
-		55374B167D83FC47C56C894BB48CCB52 /* UIImage+BetterAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIImage+BetterAdditions.modulemap"; sourceTree = "<group>"; };
+		4978AE3B75869EEDD81ADCA84FE2638D /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D163274CB18342CFB60E52695F721B /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		4C9E311C720A9CCB434DDD402672B08C /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		4D663582DBCEF1D9648898334A69766B /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		4F4441312BA375EA71EDFE77081BF7A5 /* JTFadingInfoView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTFadingInfoView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D2BFAE8663FDAFD52D08352CF5460F /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		53870D58D47F24EF228518C6ADCE40DE /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		546CC1A8E2FD6C31B95B51C06D748FF9 /* UIColor-Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-umbrella.h"; sourceTree = "<group>"; };
+		56078D10D63FEAC55648D388897E4CED /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
 		5BB26B62E0E1D2E7BE16438D64569941 /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE8C03DC635A5EF0A564E57C9CF26A9 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
-		5FF804FD323AB6D43429A8E37E68919C /* BRYSerialAnimationQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRYSerialAnimationQueue.xcconfig; sourceTree = "<group>"; };
-		6184A42FACDA1E6783ACD0916DD20A4A /* JTFadingInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTFadingInfoView.m; path = Pod/Classes/JTFadingInfoView.m; sourceTree = "<group>"; };
-		654E3D19F8FE6CB4B3074FC823676241 /* BRYSerialAnimationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRYSerialAnimationQueue.m; path = Classes/BRYSerialAnimationQueue.m; sourceTree = "<group>"; };
+		6239785668D599941B8AB01B697E280F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626C7E681C41EA1A04A096F40CF4F542 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		658BC0A37F783863D688614E0FC7B7AA /* UIColor-Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-prefix.pch"; sourceTree = "<group>"; };
 		67394B0876133AB6B6A6267614644F80 /* Pods-Dressee-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dressee-resources.sh"; sourceTree = "<group>"; };
 		684592DB829528C60E02D396BDDE3333 /* Pods-Dressee.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Dressee.modulemap"; sourceTree = "<group>"; };
-		6A03E0EF7F2B2A0894574089ECA36E57 /* JTFadingInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTFadingInfoView.h; path = Pod/Classes/JTFadingInfoView.h; sourceTree = "<group>"; };
-		722E1B0D88E48FC2D0AC42C3BB5E9E41 /* JTFadingInfoView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTFadingInfoView.xcconfig; sourceTree = "<group>"; };
+		6A1D9A14A2B38E0CFACC28690403221B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B677A85A75742B66EF7DC9F27C5E83B /* BRYSerialAnimationQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRYSerialAnimationQueue.xcconfig; sourceTree = "<group>"; };
+		6B7139F2C40D66FFC011C6A336752795 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		6BF20CDB22551009B46EA6EB613413C7 /* SSBouncyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSBouncyButton.h; path = SSBouncyButton/SSBouncyButton.h; sourceTree = "<group>"; };
+		6E4F046DD200850D5FBF0CEFD968B98C /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		6FA2DB01BC317FE680731D813CB41E87 /* UIColor-Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Hex-dummy.m"; sourceTree = "<group>"; };
+		7310F6441DAB3415F382E2B8BE03F3B5 /* ALCameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALCameraViewController.swift; path = ALCameraViewController/ViewController/ALCameraViewController.swift; sourceTree = "<group>"; };
 		74C75DC9491FB39E524CA578E21D4A50 /* Pods-Dressee-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dressee-umbrella.h"; sourceTree = "<group>"; };
 		74FF64A45BF68311248DFA0F8E2EA33F /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DEA8D96C0B3480645C577BD187775D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7AE200CC15DC8B219D77DFC3AF38F109 /* UIImage+BetterAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions-dummy.m"; sourceTree = "<group>"; };
-		7C8E0D39384DE5F13C457997A022856B /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		7C2CBF35B9DF589D0A770FDD5E7B55DB /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		7D8B7C149DA7A149843936E01140AEAC /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
 		7EF72512CAF489C6515E17EAC85ADCB9 /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BetterAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FE21DE6299B70DAB9A9F64E19F93089 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89CEBDFB4FF783690FEBE4E487672954 /* Pods_Dressee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dressee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		953000A3927F373BFE6B8A280D15B593 /* UIImage+BetterAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions.m"; sourceTree = "<group>"; };
-		9871804E86FEDC041055BA3DF50FDEBC /* JTFadingInfoView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTFadingInfoView-dummy.m"; sourceTree = "<group>"; };
+		7FF3C87B721D6A1E5E49CFAA5BBF7C79 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8067E5614A91B5F812B89E34EBDA9C33 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		8249A815148899C651105F81823090C5 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		85B63263AD862459FA4E5D498E681BE2 /* Pods_Dressee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dressee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B9A0F0928665C54DF5F061199B922B /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		910A620ECEC5F36F67FD1C6999E13691 /* UIImage+BetterAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIImage+BetterAdditions.modulemap"; sourceTree = "<group>"; };
+		94119EE8EDAE68FFD06504C28BE0E0AD /* SSBouncyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-prefix.pch"; sourceTree = "<group>"; };
 		9BAB9504480DA10D22AF35163C322EEE /* Pods-Dressee-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dressee-frameworks.sh"; sourceTree = "<group>"; };
+		9E232FCFD4751001BC934D707EBB3F27 /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
 		A295194FAA3C3ADE3F5BAF156842D9D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A7F2C4A67B4107E74C72372E219E2269 /* UIColor-Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-umbrella.h"; sourceTree = "<group>"; };
+		A56AD67885E5886B22CC8297FF0F0E59 /* SSBouncyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSBouncyButton.xcconfig; sourceTree = "<group>"; };
+		A68E6CFCA28150565659787C02EFC294 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EF2B39D8D4D6DFB6F6D9603946BCCE /* UIColor-Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-Hex.xcconfig"; sourceTree = "<group>"; };
 		A8F8FA89EA87FF43F2938DBE950BC2AB /* Pods-Dressee-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dressee-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AF48EB5180059E55FAAA0C218E284C9F /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
-		B25C8296AD1A784E1EC7F6C670161F30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6511B0BEF6FC44D3DC8B01B858A5EE0 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
-		B933685EFB6CD95BCEECF4A72A607D1D /* BRYSerialAnimationQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRYSerialAnimationQueue-dummy.m"; sourceTree = "<group>"; };
+		AADDC04ED62601A3D291F3B5EA0BD2CC /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		ACD5ABE7023229448693A67266CCC57B /* SSBouncyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSBouncyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE97BFA8D71052BD6268F2B623922727 /* UIImage+BetterAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+BetterAdditions.xcconfig"; sourceTree = "<group>"; };
+		B0CFE315721ED05DC2CA48959D8B1165 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		B0E3DE3C20C07AD6B49CEE05A1D5832C /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		B55752A5BACDD22BA8A71507A7EB0542 /* JTFadingInfoView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTFadingInfoView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D99B0971628A528088693548CD9ACF /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
+		B845EEF2D3822AC7E742242615689619 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
 		B94D2309FAC453325A83F5BA2B27EE9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE215003E342D91D9E58FB94F391B592 /* UIColor-Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor-Hex.modulemap"; sourceTree = "<group>"; };
-		BE99A978F05B72154A929D3AF0B3CF53 /* JTFadingInfoView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTFadingInfoView.modulemap; sourceTree = "<group>"; };
-		BEE9B3D3F1F3DD69E8E7983F3703DDA1 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
-		C8D8F886C38EA0E309CCCD699DF5A6B9 /* SSBouncyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-prefix.pch"; sourceTree = "<group>"; };
+		C16B919B3994EFEB7BC75AB7A3B98ABB /* JTFadingInfoView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTFadingInfoView-prefix.pch"; sourceTree = "<group>"; };
+		C743C1037935CDE8CD1A93E1B2D9A0B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C837DBD8A263CD98838ED9A4DB640C0E /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
 		C8FA41033BCD06493F2327A70BBBF75B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD09C7C2BFBBDA8D112CD6A4276BC6AE /* UIImage+BetterAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+BetterAdditions.xcconfig"; sourceTree = "<group>"; };
-		D2AA904C86DAD741F2A5C93414110F2F /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		D437C66140B50C886871B3B72B99A81B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D763007148AE3290641A12033E9D41C9 /* JTFadingInfoView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTFadingInfoView-prefix.pch"; sourceTree = "<group>"; };
-		DBC40383706FFACAF7D09EE49C9EAE39 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		DF02548702BF178F460279B2EBA00293 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
-		E0C1DBA36632AB05D46081F5B41ED16E /* UIColor-Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-Hex.xcconfig"; sourceTree = "<group>"; };
+		CA7A3E985C5D61616B6960451F9D3525 /* JTFadingInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTFadingInfoView.h; path = Pod/Classes/JTFadingInfoView.h; sourceTree = "<group>"; };
+		CC4CA433D41E1EFFB06B9E3DEA8B983E /* JTFadingInfoView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTFadingInfoView.modulemap; sourceTree = "<group>"; };
+		CD7C24886D2D6D18430F85908C09A152 /* JTFadingInfoView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTFadingInfoView.xcconfig; sourceTree = "<group>"; };
+		CF7673B5178CA74EE1831F58ED4DFB87 /* UIImage+BetterAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions.h"; sourceTree = "<group>"; };
+		D88C2ADBCA3E338CB68657F2C7302843 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		DA17A57635F845B560B82851793C48DD /* SSBouncyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSBouncyButton-dummy.m"; sourceTree = "<group>"; };
+		DB999F94A8ACE050F8CD4227A69882F1 /* UIImage+BetterAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions.m"; sourceTree = "<group>"; };
+		DE201038CCE57C156FC96C0D6416489D /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		DEC90435BA035BF239BFBE6258225503 /* BRYSerialAnimationQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-prefix.pch"; sourceTree = "<group>"; };
+		DFA81BE6968A2076212F988E8C164B21 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
 		E1C5EF0A5CA1229A0647B1BCCD0FCF6C /* Pods-Dressee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dressee.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C1C8500AD863766C306726B2885F1C /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
 		E5047CAE2943F4EBBA68022103485351 /* Pods-Dressee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dressee.release.xcconfig"; sourceTree = "<group>"; };
-		E5D7A7ECF07BE2F18022FE36CAD5B082 /* SSBouncyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSBouncyButton.xcconfig; sourceTree = "<group>"; };
-		EAD18D8E86311DE65E7F8D4DDB255F30 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD55BA90BBD80BCC115FA2FB33BF329 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
-		ED240ACF74831B4A7B4351C2C21DD172 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF57407340ECEC7C5C7CCB2F15FF4526 /* UIImage+BetterAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-prefix.pch"; sourceTree = "<group>"; };
-		F33309D96B5C8204708D425CD5BD62B0 /* SSBouncyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSBouncyButton.h; path = SSBouncyButton/SSBouncyButton.h; sourceTree = "<group>"; };
-		FB822C3FD2C5E2EF9D03EDD3D2F41821 /* JTFadingInfoView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTFadingInfoView-umbrella.h"; sourceTree = "<group>"; };
-		FC9B9F2CF26B205BFF52A0613C6593E9 /* SSBouncyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-umbrella.h"; sourceTree = "<group>"; };
+		F1E9CC33AC1CD8E480A70DCE9D6EF73F /* ALCameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ALCameraViewAssets.xcassets; path = ALCameraViewController/ALCameraViewAssets.xcassets; sourceTree = "<group>"; };
+		F429663D47EC81E480007DE279C96DE6 /* JTFadingInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTFadingInfoView.m; path = Pod/Classes/JTFadingInfoView.m; sourceTree = "<group>"; };
+		F5C94DA7F1F04F18F208209ADEC6096F /* BRYSerialAnimationQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BRYSerialAnimationQueue.modulemap; sourceTree = "<group>"; };
+		F8B4060B6EFF74DB47C3AD5FC9AE7214 /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		FD8E58B1C05CBE37D71E8DF13B3686BB /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1EF9CAC4B73D10EEB56B91EC514DD732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFDDD91C4587287996D3FF5DDD15454 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270CD815BCCA15EED62B366E9333DE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F318E080BD9CA7819E34C8605A0F55D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3685D0E21C45EDAD5B12924FFDD3D68A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		592C8E034C03F7D3D2A55A3AD18D72D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0A1DE3BB8AAB2D4C5A007AA3E7E7D7A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,41 +295,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		818FFA2689000DC90F7B2EB17E024B4B /* Frameworks */ = {
+		8D92CB8BE9F28E7348DEA65CDCAB2C5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBFF0A1B9E3E1CBD430AAACE3ED911D /* Foundation.framework in Frameworks */,
+				335813F3759395A458C5A12882B50EC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81C864EB80486EFDC54601EE86061DFC /* Frameworks */ = {
+		BD263EF261820C1DA07D4B3BDF4B6B84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D893FF4A0BF5A4532EF03D952253F7F /* Foundation.framework in Frameworks */,
-				7366AD5DF06844D1A10DF15B84B31257 /* UIKit.framework in Frameworks */,
+				D7131466C20F352E6BB16E835801BC90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C86BD20E7AA00976F1212D1B897B5BB8 /* Frameworks */ = {
+		D2E9E2B5B9EE5ABD8393B637AF1DE840 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3608CA7C5C60F4332EF6C580D7F7853E /* Foundation.framework in Frameworks */,
+				D1AE2595A57760B714D09E0E5CEB86A5 /* Foundation.framework in Frameworks */,
+				8FE0F1D2D47ACC9D69DB558E1014178D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE20A39BDD256D1D293D2CC1A7FBDBE /* Frameworks */ = {
+		F1691FF2450EC09A53B66AE2505A1DF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E38C0015B5C556637A365A3609AA1EA /* BRYSerialAnimationQueue.framework in Frameworks */,
-				221D76C6935EBD8FAAB1E6478DFC536A /* Foundation.framework in Frameworks */,
-				B20AD866E2596CC6437BFEE6F105B4DD /* QuartzCore.framework in Frameworks */,
-				B0C034E4C1478DF84A130C43CA68123B /* UIColor_Hex.framework in Frameworks */,
-				2B2242CCD6375C60804FC9BB09E4AF32 /* UIImage_BetterAdditions.framework in Frameworks */,
-				DD29B2F6670E24AE798723B6227DA77A /* UIKit.framework in Frameworks */,
+				77D173607204F6B026F3FA9BE8A157A3 /* BRYSerialAnimationQueue.framework in Frameworks */,
+				CAB24321E632D841EAF21646B873EF3C /* Foundation.framework in Frameworks */,
+				2191CBF6BFBC0362701AD8B7923EC1D9 /* QuartzCore.framework in Frameworks */,
+				9638118D370A70E291B066C98805E5A8 /* UIColor_Hex.framework in Frameworks */,
+				08AA2BD62E40437AA8107796A5B7B8F5 /* UIImage_BetterAdditions.framework in Frameworks */,
+				06461E1BAB5D44649BA6615A5E6799AE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,20 +344,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0750981F968E10AD5DB5B55BD6E66DD1 /* RAMAnimatedTabBarController */ = {
+		075BFA5B604CE8DA22AB3DEEED403061 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECD55BA90BBD80BCC115FA2FB33BF329 /* RAMAnimatedTabBarController.swift */,
-				BEE9B3D3F1F3DD69E8E7983F3703DDA1 /* RAMBadge.swift */,
-				DF02548702BF178F460279B2EBA00293 /* RAMBounceAnimation.swift */,
-				DBC40383706FFACAF7D09EE49C9EAE39 /* RAMFrameItemAnimation.swift */,
-				19BDB0C105771AE0168EA8D4200B7F7C /* RAMFumeAnimation.swift */,
-				7C8E0D39384DE5F13C457997A022856B /* RAMItemAnimationProtocol.swift */,
-				D2AA904C86DAD741F2A5C93414110F2F /* RAMRotationAnimation.swift */,
-				B6511B0BEF6FC44D3DC8B01B858A5EE0 /* RAMTransitionItemAnimations.swift */,
-				5580C7550EF011C8E2110F502A56A8E2 /* Support Files */,
+				041BF59A15EADD3FDA96A2BABE60A0CE /* Info.plist */,
+				17B2BB92BDCDBC893832DF19BF0AE1DD /* SSBouncyButton.modulemap */,
+				A56AD67885E5886B22CC8297FF0F0E59 /* SSBouncyButton.xcconfig */,
+				DA17A57635F845B560B82851793C48DD /* SSBouncyButton-dummy.m */,
+				94119EE8EDAE68FFD06504C28BE0E0AD /* SSBouncyButton-prefix.pch */,
+				3B54F1EF4EDA8A192546DC6CF96E942F /* SSBouncyButton-umbrella.h */,
 			);
-			path = RAMAnimatedTabBarController;
+			name = "Support Files";
+			path = "../Target Support Files/SSBouncyButton";
 			sourceTree = "<group>";
 		};
 		07C5189206582F031FFBFF85ADE8D4A3 /* iOS */ = {
@@ -311,18 +368,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		07E95C10540EBD4FE618B5E32D708E80 /* Support Files */ = {
+		0938564638706ED3245CA82A0FAF4A49 /* BRYSerialAnimationQueue */ = {
 			isa = PBXGroup;
 			children = (
-				D437C66140B50C886871B3B72B99A81B /* Info.plist */,
-				4EA4ED6DA33C360CC3376CB06B0245D8 /* SSBouncyButton.modulemap */,
-				E5D7A7ECF07BE2F18022FE36CAD5B082 /* SSBouncyButton.xcconfig */,
-				098866AA65DD346954435580772A9939 /* SSBouncyButton-dummy.m */,
-				C8D8F886C38EA0E309CCCD699DF5A6B9 /* SSBouncyButton-prefix.pch */,
-				FC9B9F2CF26B205BFF52A0613C6593E9 /* SSBouncyButton-umbrella.h */,
+				01500E31BE29B5FF415C0146AD3B240B /* BRYSerialAnimationQueue.h */,
+				1EBA95AC919DAD16A2DEC7CF65201E73 /* BRYSerialAnimationQueue.m */,
+				24D74ADA2501026027C7164E9ECACFE8 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SSBouncyButton";
+			path = BRYSerialAnimationQueue;
 			sourceTree = "<group>";
 		};
 		0A6618F6D322D4701BF500FC33595C8E /* Frameworks */ = {
@@ -336,74 +389,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		137F9E152B3D20EB3DDF14D7393ECDB7 /* Support Files */ = {
+		1BCA291E0AC2508B742FFCBC97A0B521 /* SSBouncyButton */ = {
 			isa = PBXGroup;
 			children = (
-				ED240ACF74831B4A7B4351C2C21DD172 /* Info.plist */,
-				55374B167D83FC47C56C894BB48CCB52 /* UIImage+BetterAdditions.modulemap */,
-				CD09C7C2BFBBDA8D112CD6A4276BC6AE /* UIImage+BetterAdditions.xcconfig */,
-				7AE200CC15DC8B219D77DFC3AF38F109 /* UIImage+BetterAdditions-dummy.m */,
-				EF57407340ECEC7C5C7CCB2F15FF4526 /* UIImage+BetterAdditions-prefix.pch */,
-				4D77A747CF2E88FBFEDF2412E75381D1 /* UIImage+BetterAdditions-umbrella.h */,
+				6BF20CDB22551009B46EA6EB613413C7 /* SSBouncyButton.h */,
+				0EBEE335C2E3FD1E1DAA4E15F30F502C /* SSBouncyButton.m */,
+				075BFA5B604CE8DA22AB3DEEED403061 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UIImage+BetterAdditions";
+			path = SSBouncyButton;
 			sourceTree = "<group>";
 		};
-		3089B89B5BC8819EF30886186CDA0963 /* Support Files */ = {
+		24D74ADA2501026027C7164E9ECACFE8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13952A6FF8CB65A222C27A0263AED461 /* BRYSerialAnimationQueue.modulemap */,
-				5FF804FD323AB6D43429A8E37E68919C /* BRYSerialAnimationQueue.xcconfig */,
-				B933685EFB6CD95BCEECF4A72A607D1D /* BRYSerialAnimationQueue-dummy.m */,
-				12E8078A4AE6A59091393F471637C923 /* BRYSerialAnimationQueue-prefix.pch */,
-				4D5D6D56425B389D7C056636AD99C611 /* BRYSerialAnimationQueue-umbrella.h */,
-				7FE21DE6299B70DAB9A9F64E19F93089 /* Info.plist */,
+				F5C94DA7F1F04F18F208209ADEC6096F /* BRYSerialAnimationQueue.modulemap */,
+				6B677A85A75742B66EF7DC9F27C5E83B /* BRYSerialAnimationQueue.xcconfig */,
+				3953154E6F6140AF840D4D9911ABDD97 /* BRYSerialAnimationQueue-dummy.m */,
+				DEC90435BA035BF239BFBE6258225503 /* BRYSerialAnimationQueue-prefix.pch */,
+				00AD3E6EA7A1AADD9DF33E8830D95D1B /* BRYSerialAnimationQueue-umbrella.h */,
+				C743C1037935CDE8CD1A93E1B2D9A0B6 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BRYSerialAnimationQueue";
 			sourceTree = "<group>";
 		};
-		5580C7550EF011C8E2110F502A56A8E2 /* Support Files */ = {
+		2DAFA3F8930899BD57A825EF00FE11B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B25C8296AD1A784E1EC7F6C670161F30 /* Info.plist */,
-				08FFB7219C815BCF63C7CA8E7CE18ED2 /* RAMAnimatedTabBarController.modulemap */,
-				5DE8C03DC635A5EF0A564E57C9CF26A9 /* RAMAnimatedTabBarController.xcconfig */,
-				24E4EB68AC0C1C8B0639885BE2536D14 /* RAMAnimatedTabBarController-dummy.m */,
-				2B9EF5E213D0E6F7C4B1C6993B1B3BC3 /* RAMAnimatedTabBarController-prefix.pch */,
-				38E8E856AD17A394E9E783DE209838B0 /* RAMAnimatedTabBarController-umbrella.h */,
+				7FF3C87B721D6A1E5E49CFAA5BBF7C79 /* ALCameraViewController.framework */,
+				1040241387056249FE1E32B9660B255A /* BRYSerialAnimationQueue.framework */,
+				B55752A5BACDD22BA8A71507A7EB0542 /* JTFadingInfoView.bundle */,
+				4F4441312BA375EA71EDFE77081BF7A5 /* JTFadingInfoView.framework */,
+				85B63263AD862459FA4E5D498E681BE2 /* Pods_Dressee.framework */,
+				1172051C9F5FAC60D3B7E4BC345AC2E8 /* RAMAnimatedTabBarController.framework */,
+				ACD5ABE7023229448693A67266CCC57B /* SSBouncyButton.framework */,
+				4978AE3B75869EEDD81ADCA84FE2638D /* UIColor_Hex.framework */,
+				21303599B7A238B70B3CDCEDC0ECE97B /* UIImage_BetterAdditions.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RAMAnimatedTabBarController";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		7241720A10CAF196AFD2D3C5AB485AFA /* Support Files */ = {
+		46EABA7618B18B46836450423F1C872D /* ALCameraViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0864080E636146364DAF78FA21B33522 /* Info.plist */,
-				BE99A978F05B72154A929D3AF0B3CF53 /* JTFadingInfoView.modulemap */,
-				722E1B0D88E48FC2D0AC42C3BB5E9E41 /* JTFadingInfoView.xcconfig */,
-				9871804E86FEDC041055BA3DF50FDEBC /* JTFadingInfoView-dummy.m */,
-				D763007148AE3290641A12033E9D41C9 /* JTFadingInfoView-prefix.pch */,
-				FB822C3FD2C5E2EF9D03EDD3D2F41821 /* JTFadingInfoView-umbrella.h */,
+				7310F6441DAB3415F382E2B8BE03F3B5 /* ALCameraViewController.swift */,
+				AADDC04ED62601A3D291F3B5EA0BD2CC /* CameraGlobals.swift */,
+				B845EEF2D3822AC7E742242615689619 /* CameraShot.swift */,
+				56078D10D63FEAC55648D388897E4CED /* CameraView.swift */,
+				012000CD29EE7E584DE0D78AF1506499 /* ConfirmViewController.swift */,
+				03A604993F10629CADD4F3066C8E513A /* CropOverlay.swift */,
+				86B9A0F0928665C54DF5F061199B922B /* ImageCell.swift */,
+				068CE01C01EA9F128E226A1AAECE0F53 /* ImageExtensions.swift */,
+				E4C1C8500AD863766C306726B2885F1C /* ImageFetcher.swift */,
+				8067E5614A91B5F812B89E34EBDA9C33 /* PermissionsView.swift */,
+				D88C2ADBCA3E338CB68657F2C7302843 /* PhotoLibraryViewController.swift */,
+				B0CFE315721ED05DC2CA48959D8B1165 /* SingleImageFetcher.swift */,
+				B0E3DE3C20C07AD6B49CEE05A1D5832C /* SingleImageSaver.swift */,
+				05CB109660C0C42E29861F2401C97601 /* Utilities.swift */,
+				AF9CE6FC49AEDA383969607841A4441F /* Resources */,
+				F0B020E6A07FC594D5206895DDE3FD03 /* Support Files */,
+			);
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		59B8F236606B01F3AC00F1FD5830C22F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A68E6CFCA28150565659787C02EFC294 /* Info.plist */,
+				CC4CA433D41E1EFFB06B9E3DEA8B983E /* JTFadingInfoView.modulemap */,
+				CD7C24886D2D6D18430F85908C09A152 /* JTFadingInfoView.xcconfig */,
+				2B5BBBF599D9BD58A6AD3118BB6C96A9 /* JTFadingInfoView-dummy.m */,
+				C16B919B3994EFEB7BC75AB7A3B98ABB /* JTFadingInfoView-prefix.pch */,
+				284C645C81A4C2B57A865149920B5F29 /* JTFadingInfoView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JTFadingInfoView";
-			sourceTree = "<group>";
-		};
-		747C566ADC960DBCCE9D53EACB329010 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				322328B400868FEF81ACA5EB3974E69B /* Info.plist */,
-				BE215003E342D91D9E58FB94F391B592 /* UIColor-Hex.modulemap */,
-				E0C1DBA36632AB05D46081F5B41ED16E /* UIColor-Hex.xcconfig */,
-				1297D73BC24F93AC67E22E8238BEF224 /* UIColor-Hex-dummy.m */,
-				0CD867FAD17D9BF2B8F1CCC23A56B2BF /* UIColor-Hex-prefix.pch */,
-				A7F2C4A67B4107E74C72372E219E2269 /* UIColor-Hex-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UIColor-Hex";
 			sourceTree = "<group>";
 		};
 		7D6A57FE5A1B3F9C37924D00D77FA2BA /* Pods-Dressee */ = {
@@ -429,68 +489,64 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				0A6618F6D322D4701BF500FC33595C8E /* Frameworks */,
-				C6A4641DA2AEA784A92F370E3D4A4D96 /* Pods */,
-				B01B78AF349328B485830AF4343014C1 /* Products */,
+				E9836AA60AED0D0707EB6A07EE693880 /* Pods */,
+				2DAFA3F8930899BD57A825EF00FE11B9 /* Products */,
 				D80AF66C26A83BE28FD636E9559E612D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9109091A260F7D9E4F9F93E200E4070B /* UIColor-Hex */ = {
+		82195AC33214912BB67618FC71BD76B9 /* JTFadingInfoView */ = {
 			isa = PBXGroup;
 			children = (
-				0DD89A5062D528F9F1D48481D8A0C4BE /* UIColor+Hex.h */,
-				AF48EB5180059E55FAAA0C218E284C9F /* UIColor+Hex.m */,
-				747C566ADC960DBCCE9D53EACB329010 /* Support Files */,
+				CA7A3E985C5D61616B6960451F9D3525 /* JTFadingInfoView.h */,
+				F429663D47EC81E480007DE279C96DE6 /* JTFadingInfoView.m */,
+				59B8F236606B01F3AC00F1FD5830C22F /* Support Files */,
+			);
+			path = JTFadingInfoView;
+			sourceTree = "<group>";
+		};
+		92D54244690C6888455F1F22E9336FFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0833D3B9FEF7A149168D8647AC121C23 /* Info.plist */,
+				50D2BFAE8663FDAFD52D08352CF5460F /* RAMAnimatedTabBarController.modulemap */,
+				7D8B7C149DA7A149843936E01140AEAC /* RAMAnimatedTabBarController.xcconfig */,
+				FD8E58B1C05CBE37D71E8DF13B3686BB /* RAMAnimatedTabBarController-dummy.m */,
+				6E4F046DD200850D5FBF0CEFD968B98C /* RAMAnimatedTabBarController-prefix.pch */,
+				01B5D209B6CD2BA8A616EDEC11B56411 /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		A3EAB0FAB6CB816F4F1EF9510ED9BDA4 /* UIColor-Hex */ = {
+			isa = PBXGroup;
+			children = (
+				B5D99B0971628A528088693548CD9ACF /* UIColor+Hex.h */,
+				626C7E681C41EA1A04A096F40CF4F542 /* UIColor+Hex.m */,
+				F45DB3CC5C6CEF17ADACB9681CC7EB76 /* Support Files */,
 			);
 			path = "UIColor-Hex";
 			sourceTree = "<group>";
 		};
-		9FED01843939C0F7137A36067771E3B2 /* SSBouncyButton */ = {
+		AF9CE6FC49AEDA383969607841A4441F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F33309D96B5C8204708D425CD5BD62B0 /* SSBouncyButton.h */,
-				1AC3048D581470800BB2615D5B2C37F6 /* SSBouncyButton.m */,
-				07E95C10540EBD4FE618B5E32D708E80 /* Support Files */,
+				F1E9CC33AC1CD8E480A70DCE9D6EF73F /* ALCameraViewAssets.xcassets */,
+				9E232FCFD4751001BC934D707EBB3F27 /* CameraView.strings */,
+				37C39FF4ACEBB31642597AE703BDD87C /* ConfirmViewController.xib */,
 			);
-			path = SSBouncyButton;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		A7973621E9551F7F21655D1037CAE658 /* BRYSerialAnimationQueue */ = {
+		D43EBA913550BDCA7057820DD1FD3BA1 /* UIImage+BetterAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				436EA615AA919C206DCA003779C9C463 /* BRYSerialAnimationQueue.h */,
-				654E3D19F8FE6CB4B3074FC823676241 /* BRYSerialAnimationQueue.m */,
-				3089B89B5BC8819EF30886186CDA0963 /* Support Files */,
+				CF7673B5178CA74EE1831F58ED4DFB87 /* UIImage+BetterAdditions.h */,
+				DB999F94A8ACE050F8CD4227A69882F1 /* UIImage+BetterAdditions.m */,
+				DC0BA52FBF18496F49D567645697AFD0 /* Support Files */,
 			);
-			path = BRYSerialAnimationQueue;
-			sourceTree = "<group>";
-		};
-		B01B78AF349328B485830AF4343014C1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0754BB082853F2778AFB4583F374F612 /* BRYSerialAnimationQueue.framework */,
-				3910265F86186BA39E7AA26F44ED1D47 /* JTFadingInfoView.bundle */,
-				03231E0B96D39A6EADC5531B8F90F175 /* JTFadingInfoView.framework */,
-				89CEBDFB4FF783690FEBE4E487672954 /* Pods_Dressee.framework */,
-				EAD18D8E86311DE65E7F8D4DDB255F30 /* RAMAnimatedTabBarController.framework */,
-				17B25F32F6B6945839DB224120398178 /* SSBouncyButton.framework */,
-				1C916D2F19F93E26CAC2C7AE2E864438 /* UIColor_Hex.framework */,
-				0BA7A47447432F6D2ACDFBDEE4A3CC83 /* UIImage_BetterAdditions.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C6A4641DA2AEA784A92F370E3D4A4D96 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A7973621E9551F7F21655D1037CAE658 /* BRYSerialAnimationQueue */,
-				E952FBC125D3C7173D4ECE466E2767DA /* JTFadingInfoView */,
-				0750981F968E10AD5DB5B55BD6E66DD1 /* RAMAnimatedTabBarController */,
-				9FED01843939C0F7137A36067771E3B2 /* SSBouncyButton */,
-				9109091A260F7D9E4F9F93E200E4070B /* UIColor-Hex */,
-				DBBC6B441F2E4B7EDD56BE784BC917F0 /* UIImage+BetterAdditions */,
-			);
-			name = Pods;
+			path = "UIImage+BetterAdditions";
 			sourceTree = "<group>";
 		};
 		D80AF66C26A83BE28FD636E9559E612D /* Targets Support Files */ = {
@@ -501,37 +557,81 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DBBC6B441F2E4B7EDD56BE784BC917F0 /* UIImage+BetterAdditions */ = {
+		DC0BA52FBF18496F49D567645697AFD0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41EB81BFF4586D4FDED9F853663B3F07 /* UIImage+BetterAdditions.h */,
-				953000A3927F373BFE6B8A280D15B593 /* UIImage+BetterAdditions.m */,
-				137F9E152B3D20EB3DDF14D7393ECDB7 /* Support Files */,
+				6239785668D599941B8AB01B697E280F /* Info.plist */,
+				910A620ECEC5F36F67FD1C6999E13691 /* UIImage+BetterAdditions.modulemap */,
+				AE97BFA8D71052BD6268F2B623922727 /* UIImage+BetterAdditions.xcconfig */,
+				2D258CB805DCCA5345581C971FA4AD9B /* UIImage+BetterAdditions-dummy.m */,
+				4239977A017DF5526485542B534EC59C /* UIImage+BetterAdditions-prefix.pch */,
+				309D0E0C756FA41BF4B6BE416F73215F /* UIImage+BetterAdditions-umbrella.h */,
 			);
-			path = "UIImage+BetterAdditions";
+			name = "Support Files";
+			path = "../Target Support Files/UIImage+BetterAdditions";
 			sourceTree = "<group>";
 		};
-		E952FBC125D3C7173D4ECE466E2767DA /* JTFadingInfoView */ = {
+		E3325854DA31723D79AEC91135EFF757 /* RAMAnimatedTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				6A03E0EF7F2B2A0894574089ECA36E57 /* JTFadingInfoView.h */,
-				6184A42FACDA1E6783ACD0916DD20A4A /* JTFadingInfoView.m */,
-				7241720A10CAF196AFD2D3C5AB485AFA /* Support Files */,
+				C837DBD8A263CD98838ED9A4DB640C0E /* RAMAnimatedTabBarController.swift */,
+				8249A815148899C651105F81823090C5 /* RAMBadge.swift */,
+				6B7139F2C40D66FFC011C6A336752795 /* RAMBounceAnimation.swift */,
+				DFA81BE6968A2076212F988E8C164B21 /* RAMFrameItemAnimation.swift */,
+				DE201038CCE57C156FC96C0D6416489D /* RAMFumeAnimation.swift */,
+				7C2CBF35B9DF589D0A770FDD5E7B55DB /* RAMItemAnimationProtocol.swift */,
+				4C9E311C720A9CCB434DDD402672B08C /* RAMRotationAnimation.swift */,
+				4D663582DBCEF1D9648898334A69766B /* RAMTransitionItemAnimations.swift */,
+				92D54244690C6888455F1F22E9336FFF /* Support Files */,
 			);
-			path = JTFadingInfoView;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		E9836AA60AED0D0707EB6A07EE693880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46EABA7618B18B46836450423F1C872D /* ALCameraViewController */,
+				0938564638706ED3245CA82A0FAF4A49 /* BRYSerialAnimationQueue */,
+				82195AC33214912BB67618FC71BD76B9 /* JTFadingInfoView */,
+				E3325854DA31723D79AEC91135EFF757 /* RAMAnimatedTabBarController */,
+				1BCA291E0AC2508B742FFCBC97A0B521 /* SSBouncyButton */,
+				A3EAB0FAB6CB816F4F1EF9510ED9BDA4 /* UIColor-Hex */,
+				D43EBA913550BDCA7057820DD1FD3BA1 /* UIImage+BetterAdditions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0B020E6A07FC594D5206895DDE3FD03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53870D58D47F24EF228518C6ADCE40DE /* ALCameraViewController.modulemap */,
+				34744BE8CA95B1C2B8020F5C99570CEB /* ALCameraViewController.xcconfig */,
+				40166AB3A2960BB592EB895525F2CA20 /* ALCameraViewController-dummy.m */,
+				F8B4060B6EFF74DB47C3AD5FC9AE7214 /* ALCameraViewController-prefix.pch */,
+				49D163274CB18342CFB60E52695F721B /* ALCameraViewController-umbrella.h */,
+				06130E73413C57780A9A41A28503AC6C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		F45DB3CC5C6CEF17ADACB9681CC7EB76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A1D9A14A2B38E0CFACC28690403221B /* Info.plist */,
+				1110F26E46F7A232139A39E47A674271 /* UIColor-Hex.modulemap */,
+				A8EF2B39D8D4D6DFB6F6D9603946BCCE /* UIColor-Hex.xcconfig */,
+				6FA2DB01BC317FE680731D813CB41E87 /* UIColor-Hex-dummy.m */,
+				658BC0A37F783863D688614E0FC7B7AA /* UIColor-Hex-prefix.pch */,
+				546CC1A8E2FD6C31B95B51C06D748FF9 /* UIColor-Hex-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor-Hex";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09CAAA65A0CF1D36A44104242505408F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1B54D2AFF42E18C87B5FB6D42422EE3 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		24A52124F53E2BFDF7AE027F77137B50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,30 +641,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61D128E327A24CEF467FC9EFA6C0B81C /* Headers */ = {
+		8BDD51BAE9498D6D0CB6BA28E61ABC47 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40815D0393DEF20907CD7CA3A2432483 /* SSBouncyButton-umbrella.h in Headers */,
-				242CC24461134BBF1BE0D4A9E32F7B98 /* SSBouncyButton.h in Headers */,
+				EF7A409AC5C711049BD84630D179B0E9 /* Pods-Dressee-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64E686869C8DA4B80529CD7CE640AF1C /* Headers */ = {
+		9193760056B78E2F1DD27A020447CD78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B1597CDC2935E5BE4F42F9F23F9E2F /* UIColor+Hex.h in Headers */,
-				50241D7E1B00A5A67A53B673486B3DFD /* UIColor-Hex-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CD6A3223AC6FC9A337B9773E5FC4DF9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0018F9B0750326A42BBD8054FA4E8C1F /* UIImage+BetterAdditions-umbrella.h in Headers */,
-				0ECFE60EB723B29F6384704D43DD61B8 /* UIImage+BetterAdditions.h in Headers */,
+				9AC9DE44A9EEB39F4B231C798AFF5C38 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,58 +666,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB9A8D55D8E8FB0CFA5211B0F2FBDFE3 /* Headers */ = {
+		D023D3CE04DF0DA8C28BD7AD868EE5A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7BC585E01EA8310D481678A727607D /* Pods-Dressee-umbrella.h in Headers */,
+				1A6F23B103E6A1A1B4BFDA76501F4813 /* ALCameraViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E935CC24DA7210091122A2868FA18536 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919689465A9182C955668910F32023D9 /* SSBouncyButton-umbrella.h in Headers */,
+				9E21CF2E60672EE89A9082537AADD38F /* SSBouncyButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2149D86016FFB8FB2F8C094254CA8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05823E8202A78A1945D14C72391A1029 /* UIColor+Hex.h in Headers */,
+				E8609DD4757494B4BD75C5B22C76C8CE /* UIColor-Hex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4595664E387ED62862CAA66E02CF31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787DB7B408D0B8C74A59218A7635A734 /* UIImage+BetterAdditions-umbrella.h in Headers */,
+				DA797475D020D9135E8952196AE25422 /* UIImage+BetterAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		34EFF23A5CB955EF0F37705A167495E1 /* SSBouncyButton */ = {
+		40D77135FB2C2BC2E7588FC6417F0393 /* UIImage+BetterAdditions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E18FA72F1DF1C152A8A3EF517B9E2D49 /* Build configuration list for PBXNativeTarget "SSBouncyButton" */;
+			buildConfigurationList = 22579B189FFBE7A364A92A6981C63808 /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */;
 			buildPhases = (
-				EBDF3E0465190846383EB8F19D1225E1 /* Sources */,
-				DCE20A39BDD256D1D293D2CC1A7FBDBE /* Frameworks */,
-				61D128E327A24CEF467FC9EFA6C0B81C /* Headers */,
+				5D9273084DD9CCBD6E61E9B7F6D32742 /* Sources */,
+				D2E9E2B5B9EE5ABD8393B637AF1DE840 /* Frameworks */,
+				EE4595664E387ED62862CAA66E02CF31 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8CB13D44685E98C282FA63875E0949B4 /* PBXTargetDependency */,
-				7DCEB5D7A3B712D822940EB3693B42FD /* PBXTargetDependency */,
-				59DF68342A78DDD1C61AFBE2AD0EF0CE /* PBXTargetDependency */,
 			);
-			name = SSBouncyButton;
-			productName = SSBouncyButton;
-			productReference = 17B25F32F6B6945839DB224120398178 /* SSBouncyButton.framework */;
+			name = "UIImage+BetterAdditions";
+			productName = "UIImage+BetterAdditions";
+			productReference = 21303599B7A238B70B3CDCEDC0ECE97B /* UIImage_BetterAdditions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4DD0470F428A7B4A5F7DF64D2209B596 /* Pods-Dressee */ = {
+		42D342B0BEEA5C4164F37F9D2058ADE3 /* RAMAnimatedTabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C17DA1AF2D055C744A0E5F8294C9F8F5 /* Build configuration list for PBXNativeTarget "Pods-Dressee" */;
+			buildConfigurationList = 62C085B1B37DDE247029B4E82DA6807B /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
 			buildPhases = (
-				663257408C16281DAA94EF97269F0336 /* Sources */,
-				592C8E034C03F7D3D2A55A3AD18D72D7 /* Frameworks */,
-				DB9A8D55D8E8FB0CFA5211B0F2FBDFE3 /* Headers */,
+				6A3A2D2E01C206662B66A0A0B68E228B /* Sources */,
+				270CD815BCCA15EED62B366E9333DE86 /* Frameworks */,
+				9193760056B78E2F1DD27A020447CD78 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AF13D71E01027CF31CC0AA192BC7EAB1 /* PBXTargetDependency */,
-				C6A5FA07C0B2D9C9154868CC7B976B9B /* PBXTargetDependency */,
-				D51F2DA91855FEE30300D7B6C7E6A6F9 /* PBXTargetDependency */,
-				DA1B96A5D16A9498AB990BA289575585 /* PBXTargetDependency */,
-				BCDB03210F1F34750A9B1E8680F2C1E7 /* PBXTargetDependency */,
-				2D16BF9FF5E6F508E7F21C8A0AA006AD /* PBXTargetDependency */,
 			);
-			name = "Pods-Dressee";
-			productName = "Pods-Dressee";
-			productReference = 89CEBDFB4FF783690FEBE4E487672954 /* Pods_Dressee.framework */;
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = 1172051C9F5FAC60D3B7E4BC345AC2E8 /* RAMAnimatedTabBarController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */ = {
@@ -645,16 +752,34 @@
 			);
 			name = BRYSerialAnimationQueue;
 			productName = BRYSerialAnimationQueue;
-			productReference = 0754BB082853F2778AFB4583F374F612 /* BRYSerialAnimationQueue.framework */;
+			productReference = 1040241387056249FE1E32B9660B255A /* BRYSerialAnimationQueue.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B4E81A46E666CB1929BE44B0C2AF3EF6 /* UIColor-Hex */ = {
+		87330B1DCE9E3653334A1C392975BFB8 /* ALCameraViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A214BEB86F811A2E23C6BD50D759AE0 /* Build configuration list for PBXNativeTarget "UIColor-Hex" */;
+			buildConfigurationList = D5F18D818A24057557509086A80D47D3 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */;
 			buildPhases = (
-				3731912E3DB76003A2AE0FE2213D3098 /* Sources */,
-				C86BD20E7AA00976F1212D1B897B5BB8 /* Frameworks */,
-				64E686869C8DA4B80529CD7CE640AF1C /* Headers */,
+				774518206A0F7508306A7EDB15BB0763 /* Sources */,
+				8D92CB8BE9F28E7348DEA65CDCAB2C5A /* Frameworks */,
+				12B70786C3B8C92AEF240D951E14B144 /* Resources */,
+				D023D3CE04DF0DA8C28BD7AD868EE5A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCameraViewController;
+			productName = ALCameraViewController;
+			productReference = 7FF3C87B721D6A1E5E49CFAA5BBF7C79 /* ALCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C5E8F368050129FD3DB54CC88842903 /* UIColor-Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441B04028DF87774011A0E0E80BDA212 /* Build configuration list for PBXNativeTarget "UIColor-Hex" */;
+			buildPhases = (
+				79E780BB94513D868B0C4F7527343EC4 /* Sources */,
+				1EF9CAC4B73D10EEB56B91EC514DD732 /* Frameworks */,
+				EC2149D86016FFB8FB2F8C094254CA8D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -662,24 +787,31 @@
 			);
 			name = "UIColor-Hex";
 			productName = "UIColor-Hex";
-			productReference = 1C916D2F19F93E26CAC2C7AE2E864438 /* UIColor_Hex.framework */;
+			productReference = 4978AE3B75869EEDD81ADCA84FE2638D /* UIColor_Hex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C2EE26A48D038ACF02934B0034844F6B /* UIImage+BetterAdditions */ = {
+		BF8FACBD58350F141366F23EDE35F5A2 /* Pods-Dressee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CEAC675A87E826ED3F9036BEC4D5B57 /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */;
+			buildConfigurationList = 84D96B782BB1D5774086165E228760B2 /* Build configuration list for PBXNativeTarget "Pods-Dressee" */;
 			buildPhases = (
-				BFCB8902F66490F9CC88047AC4B938A6 /* Sources */,
-				81C864EB80486EFDC54601EE86061DFC /* Frameworks */,
-				9CD6A3223AC6FC9A337B9773E5FC4DF9 /* Headers */,
+				CA57B79FE6D1CCC5344599C2F3DF5D06 /* Sources */,
+				BD263EF261820C1DA07D4B3BDF4B6B84 /* Frameworks */,
+				8BDD51BAE9498D6D0CB6BA28E61ABC47 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3804ABE2233FE8D89AC5168E56F640FE /* PBXTargetDependency */,
+				0BA8C2C9363E621F1693B447971A51BB /* PBXTargetDependency */,
+				30B030F0EC8FC59D1E73490F447B6CEB /* PBXTargetDependency */,
+				3E8EB3240F8A9EE1B2727E0B3892AA24 /* PBXTargetDependency */,
+				1D8521912A83213E10C41E8FFA4911B0 /* PBXTargetDependency */,
+				4A7EB36D6722BDF1702C3D58332B6989 /* PBXTargetDependency */,
+				1E44BE1768C4E98EFAA4E38E038B8BF7 /* PBXTargetDependency */,
 			);
-			name = "UIImage+BetterAdditions";
-			productName = "UIImage+BetterAdditions";
-			productReference = 0BA7A47447432F6D2ACDFBDEE4A3CC83 /* UIImage_BetterAdditions.framework */;
+			name = "Pods-Dressee";
+			productName = "Pods-Dressee";
+			productReference = 85B63263AD862459FA4E5D498E681BE2 /* Pods_Dressee.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0818B5067B841D4462677053A647101 /* JTFadingInfoView-JTFadingInfoView */ = {
@@ -696,7 +828,7 @@
 			);
 			name = "JTFadingInfoView-JTFadingInfoView";
 			productName = "JTFadingInfoView-JTFadingInfoView";
-			productReference = 3910265F86186BA39E7AA26F44ED1D47 /* JTFadingInfoView.bundle */;
+			productReference = B55752A5BACDD22BA8A71507A7EB0542 /* JTFadingInfoView.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DEBAEFE738269C0B332F729FAFC62820 /* JTFadingInfoView */ = {
@@ -715,24 +847,27 @@
 			);
 			name = JTFadingInfoView;
 			productName = JTFadingInfoView;
-			productReference = 03231E0B96D39A6EADC5531B8F90F175 /* JTFadingInfoView.framework */;
+			productReference = 4F4441312BA375EA71EDFE77081BF7A5 /* JTFadingInfoView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F22A70727EE95F986BBA0F31711AFC6B /* RAMAnimatedTabBarController */ = {
+		F7BCE996EBFDD88C9ED98FA2AD6870EB /* SSBouncyButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD91BC24DB8A62BF497E7C0F4D4DFA6 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildConfigurationList = 5F1B645A7475A0BD7F765658F0A2A87B /* Build configuration list for PBXNativeTarget "SSBouncyButton" */;
 			buildPhases = (
-				C2992961A70F5C2658E6B5B7E57790FE /* Sources */,
-				818FFA2689000DC90F7B2EB17E024B4B /* Frameworks */,
-				09CAAA65A0CF1D36A44104242505408F /* Headers */,
+				099628C187825FE7F95192C35946484B /* Sources */,
+				F1691FF2450EC09A53B66AE2505A1DF2 /* Frameworks */,
+				E935CC24DA7210091122A2868FA18536 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				19D1EC5BBF9496414BF0F31D76D9FCFB /* PBXTargetDependency */,
+				0E301ACE83A07B13961E89372D8CC00D /* PBXTargetDependency */,
+				628E7304D641EDB363331EF2D61D590A /* PBXTargetDependency */,
 			);
-			name = RAMAnimatedTabBarController;
-			productName = RAMAnimatedTabBarController;
-			productReference = EAD18D8E86311DE65E7F8D4DDB255F30 /* RAMAnimatedTabBarController.framework */;
+			name = SSBouncyButton;
+			productName = SSBouncyButton;
+			productReference = ACD5ABE7023229448693A67266CCC57B /* SSBouncyButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -752,23 +887,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B01B78AF349328B485830AF4343014C1 /* Products */;
+			productRefGroup = 2DAFA3F8930899BD57A825EF00FE11B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				87330B1DCE9E3653334A1C392975BFB8 /* ALCameraViewController */,
 				4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */,
 				DEBAEFE738269C0B332F729FAFC62820 /* JTFadingInfoView */,
 				D0818B5067B841D4462677053A647101 /* JTFadingInfoView-JTFadingInfoView */,
-				4DD0470F428A7B4A5F7DF64D2209B596 /* Pods-Dressee */,
-				F22A70727EE95F986BBA0F31711AFC6B /* RAMAnimatedTabBarController */,
-				34EFF23A5CB955EF0F37705A167495E1 /* SSBouncyButton */,
-				B4E81A46E666CB1929BE44B0C2AF3EF6 /* UIColor-Hex */,
-				C2EE26A48D038ACF02934B0034844F6B /* UIImage+BetterAdditions */,
+				BF8FACBD58350F141366F23EDE35F5A2 /* Pods-Dressee */,
+				42D342B0BEEA5C4164F37F9D2058ADE3 /* RAMAnimatedTabBarController */,
+				F7BCE996EBFDD88C9ED98FA2AD6870EB /* SSBouncyButton */,
+				8C5E8F368050129FD3DB54CC88842903 /* UIColor-Hex */,
+				40D77135FB2C2BC2E7588FC6417F0393 /* UIImage+BetterAdditions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		12B70786C3B8C92AEF240D951E14B144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38430E7629A5CFEDA8FD7AC40ED17D8 /* ALCameraViewAssets.xcassets in Resources */,
+				B04DB0D408F861563758F3D442F51B1E /* CameraView.strings in Resources */,
+				54633489EEE6123964F59CDE6F1DDF8C /* ConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4255034145E948365BCBCA70209FE93D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -787,6 +933,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		099628C187825FE7F95192C35946484B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3272E33C46754A3BC238EAD01DDDA2 /* SSBouncyButton-dummy.m in Sources */,
+				59250C083B55C4ECB2F2BEF55FDB75A4 /* SSBouncyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22FD7A7768F5972B57DB15CE68B1834E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -794,20 +949,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3731912E3DB76003A2AE0FE2213D3098 /* Sources */ = {
+		5D9273084DD9CCBD6E61E9B7F6D32742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCA134AE557B0197EF437C991A3AE51 /* UIColor+Hex.m in Sources */,
-				BB780A708271F232EDD46713FA9845D1 /* UIColor-Hex-dummy.m in Sources */,
+				1369AFC6A1D7296E6D9691A6EA5A01C5 /* UIImage+BetterAdditions-dummy.m in Sources */,
+				DA2E9BD55F73608364B980C00F32E8D0 /* UIImage+BetterAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		663257408C16281DAA94EF97269F0336 /* Sources */ = {
+		6A3A2D2E01C206662B66A0A0B68E228B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC572454BC938AEE71BC45A66FCB3DDA /* Pods-Dressee-dummy.m in Sources */,
+				FAC72C011CE97397F75309E327B97709 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				3E652B698DC307D1596CBC8F237343FF /* RAMAnimatedTabBarController.swift in Sources */,
+				4B606A8E2959DCD88D346A0D44807439 /* RAMBadge.swift in Sources */,
+				E23116F6DC8CDC0A47C78307025BF18F /* RAMBounceAnimation.swift in Sources */,
+				B3558A5FB14BC28B3ED60D606E651A3A /* RAMFrameItemAnimation.swift in Sources */,
+				4F815BCDAD826E7D6AC9E4ED2D0F6923 /* RAMFumeAnimation.swift in Sources */,
+				84C423636DE3315EBE475AB29982B99F /* RAMItemAnimationProtocol.swift in Sources */,
+				E37D41115A608AD921DF2A009E74A72D /* RAMRotationAnimation.swift in Sources */,
+				C1468D2BC5CD64AF4C74D492E40DB36D /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774518206A0F7508306A7EDB15BB0763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A026B2D65416E9D68CC404878234DB6B /* ALCameraViewController-dummy.m in Sources */,
+				4A668F5D5BC14DC88163D34AF0EF59F0 /* ALCameraViewController.swift in Sources */,
+				898AB3B9ED4D144207E95A7A8E3D2418 /* CameraGlobals.swift in Sources */,
+				1B2174C7F02D5808342676EBB08674F5 /* CameraShot.swift in Sources */,
+				EAB513B7B75C0D3F2B8237FDBA2095B3 /* CameraView.swift in Sources */,
+				4AFC590B2C7904BEB0AB4514E6E5AF1B /* ConfirmViewController.swift in Sources */,
+				83A813267CBD32C89E87E822D070BCD5 /* CropOverlay.swift in Sources */,
+				353566365FB09F678B18A6FA8C1CD2BF /* ImageCell.swift in Sources */,
+				0C0D6FC02BB6D5C95B26C0B082149877 /* ImageExtensions.swift in Sources */,
+				AC7B80BF511DD3BBDF6AEA744EB74582 /* ImageFetcher.swift in Sources */,
+				5DECC4D4B9FAE6F370CA9F28DCECB87E /* PermissionsView.swift in Sources */,
+				7A6F7AE2107F6109BF43F92A36EA8A21 /* PhotoLibraryViewController.swift in Sources */,
+				5C6EDF9B181521F2BF1BCC97CFE4F46A /* SingleImageFetcher.swift in Sources */,
+				D10C99E7D55851A8E7218E3A8880CBF1 /* SingleImageSaver.swift in Sources */,
+				BFEAB604F386C9A8307F662206E8BE61 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E780BB94513D868B0C4F7527343EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37E7DAF6936433119BD2C5CA7CA8111 /* UIColor+Hex.m in Sources */,
+				6FF4292F6DDA2E10C66512D1D3F6056D /* UIColor-Hex-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,37 +1023,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFCB8902F66490F9CC88047AC4B938A6 /* Sources */ = {
+		CA57B79FE6D1CCC5344599C2F3DF5D06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBEDCF592E3F15C83388D330B78412AD /* UIImage+BetterAdditions-dummy.m in Sources */,
-				C9309EDEACAC2BD76C6A2A136A96F516 /* UIImage+BetterAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2992961A70F5C2658E6B5B7E57790FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C16FA257CFF84C0A593C3F5DDB9E37DE /* RAMAnimatedTabBarController-dummy.m in Sources */,
-				5B683EE2734AC151A6B400631DF0827B /* RAMAnimatedTabBarController.swift in Sources */,
-				C26A65B2B592FBB35699A2712570CC38 /* RAMBadge.swift in Sources */,
-				8EB05BB3B3E7110E0AC532C9C4A0DB3C /* RAMBounceAnimation.swift in Sources */,
-				7E22707AF4C2C1BFD924844231060351 /* RAMFrameItemAnimation.swift in Sources */,
-				55C900637A87C8B2B3319490B442B3F5 /* RAMFumeAnimation.swift in Sources */,
-				D53DFA9898ED1782B3C18B362C739137 /* RAMItemAnimationProtocol.swift in Sources */,
-				9BC29494322F00D922E0D0EE28A28055 /* RAMRotationAnimation.swift in Sources */,
-				A2631EAA56600F4D9D2A1CED93AEF892 /* RAMTransitionItemAnimations.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBDF3E0465190846383EB8F19D1225E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5A96A0BD3BA96B7E1BF4E43509397C9 /* SSBouncyButton-dummy.m in Sources */,
-				408F73F0645BC4E4B84A0C032B763D34 /* SSBouncyButton.m in Sources */,
+				ABE3E19D93547737FABE755B23BA53B4 /* Pods-Dressee-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,66 +1040,72 @@
 			target = D0818B5067B841D4462677053A647101 /* JTFadingInfoView-JTFadingInfoView */;
 			targetProxy = 663D37E453B15C63A881A8970DD48BA6 /* PBXContainerItemProxy */;
 		};
-		2D16BF9FF5E6F508E7F21C8A0AA006AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIImage+BetterAdditions";
-			target = C2EE26A48D038ACF02934B0034844F6B /* UIImage+BetterAdditions */;
-			targetProxy = D3571E00C19BC5109F6AA49178A1B94E /* PBXContainerItemProxy */;
-		};
-		59DF68342A78DDD1C61AFBE2AD0EF0CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIImage+BetterAdditions";
-			target = C2EE26A48D038ACF02934B0034844F6B /* UIImage+BetterAdditions */;
-			targetProxy = BC5406C746734A44D63646FC5AADB23C /* PBXContainerItemProxy */;
-		};
-		7DCEB5D7A3B712D822940EB3693B42FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIColor-Hex";
-			target = B4E81A46E666CB1929BE44B0C2AF3EF6 /* UIColor-Hex */;
-			targetProxy = D25B46BBEF9DAF8AFA622148B4E3BFC2 /* PBXContainerItemProxy */;
-		};
-		8CB13D44685E98C282FA63875E0949B4 /* PBXTargetDependency */ = {
+		0BA8C2C9363E621F1693B447971A51BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BRYSerialAnimationQueue;
 			target = 4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */;
-			targetProxy = 47CE6E6BF67C3789E1157F997DEE9CCC /* PBXContainerItemProxy */;
+			targetProxy = A9C4F2CF482325D9F8249F71FE06BD80 /* PBXContainerItemProxy */;
 		};
-		AF13D71E01027CF31CC0AA192BC7EAB1 /* PBXTargetDependency */ = {
+		0E301ACE83A07B13961E89372D8CC00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-Hex";
+			target = 8C5E8F368050129FD3DB54CC88842903 /* UIColor-Hex */;
+			targetProxy = DAC023ADA9BF89284D948AA4382334FD /* PBXContainerItemProxy */;
+		};
+		19D1EC5BBF9496414BF0F31D76D9FCFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BRYSerialAnimationQueue;
 			target = 4FE952A6C96E083F4718AE1F0B04191F /* BRYSerialAnimationQueue */;
-			targetProxy = 071F50419DF60F3BEA0ECB37F4691B47 /* PBXContainerItemProxy */;
+			targetProxy = 9829D835E7DCC04086BAE7C0E429FBE1 /* PBXContainerItemProxy */;
 		};
-		BCDB03210F1F34750A9B1E8680F2C1E7 /* PBXTargetDependency */ = {
+		1D8521912A83213E10C41E8FFA4911B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "UIColor-Hex";
-			target = B4E81A46E666CB1929BE44B0C2AF3EF6 /* UIColor-Hex */;
-			targetProxy = F5547A029A5A69F3EEBFD05122063509 /* PBXContainerItemProxy */;
+			name = SSBouncyButton;
+			target = F7BCE996EBFDD88C9ED98FA2AD6870EB /* SSBouncyButton */;
+			targetProxy = F9B949005AA8868C8C5722B8DD71E361 /* PBXContainerItemProxy */;
 		};
-		C6A5FA07C0B2D9C9154868CC7B976B9B /* PBXTargetDependency */ = {
+		1E44BE1768C4E98EFAA4E38E038B8BF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BetterAdditions";
+			target = 40D77135FB2C2BC2E7588FC6417F0393 /* UIImage+BetterAdditions */;
+			targetProxy = 8DF6F71B11CB35AE3F17E1ADA1F02D5D /* PBXContainerItemProxy */;
+		};
+		30B030F0EC8FC59D1E73490F447B6CEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JTFadingInfoView;
 			target = DEBAEFE738269C0B332F729FAFC62820 /* JTFadingInfoView */;
-			targetProxy = 8934C1242757FD44495660B5D38924F1 /* PBXContainerItemProxy */;
+			targetProxy = 3ED09E737A03C31531A838EE35DC8C03 /* PBXContainerItemProxy */;
 		};
-		D51F2DA91855FEE30300D7B6C7E6A6F9 /* PBXTargetDependency */ = {
+		3804ABE2233FE8D89AC5168E56F640FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = 87330B1DCE9E3653334A1C392975BFB8 /* ALCameraViewController */;
+			targetProxy = A789C70DC974E18FF3F71B3C8110CA43 /* PBXContainerItemProxy */;
+		};
+		3E8EB3240F8A9EE1B2727E0B3892AA24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RAMAnimatedTabBarController;
-			target = F22A70727EE95F986BBA0F31711AFC6B /* RAMAnimatedTabBarController */;
-			targetProxy = ECB84F245EF9A02960935B9F2E2277C7 /* PBXContainerItemProxy */;
+			target = 42D342B0BEEA5C4164F37F9D2058ADE3 /* RAMAnimatedTabBarController */;
+			targetProxy = DBA6696EB00602250B1C98D2ED41089E /* PBXContainerItemProxy */;
 		};
-		DA1B96A5D16A9498AB990BA289575585 /* PBXTargetDependency */ = {
+		4A7EB36D6722BDF1702C3D58332B6989 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SSBouncyButton;
-			target = 34EFF23A5CB955EF0F37705A167495E1 /* SSBouncyButton */;
-			targetProxy = 8F98EF0CACBB1CCC83F79C355D318985 /* PBXContainerItemProxy */;
+			name = "UIColor-Hex";
+			target = 8C5E8F368050129FD3DB54CC88842903 /* UIColor-Hex */;
+			targetProxy = 99F93CDEAB2D5D97C5EFEC36DD1BB2DF /* PBXContainerItemProxy */;
+		};
+		628E7304D641EDB363331EF2D61D590A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BetterAdditions";
+			target = 40D77135FB2C2BC2E7588FC6417F0393 /* UIImage+BetterAdditions */;
+			targetProxy = 59902F73A8A598DC7946F415A3EA867F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F383AA583435494E2D63AF275594880 /* Debug */ = {
+		0A4F45CCEF81629BCE4C4D8CFD57BC61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5D7A7ECF07BE2F18022FE36CAD5B082 /* SSBouncyButton.xcconfig */;
+			baseConfigurationReference = 7D8B7C149DA7A149843936E01140AEAC /* RAMAnimatedTabBarController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -940,25 +1114,53 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SSBouncyButton/SSBouncyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSBouncyButton/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSBouncyButton/SSBouncyButton.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SSBouncyButton;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		13C2B0D8A23B02F7CD687DCF8BCAB8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8B7C149DA7A149843936E01140AEAC /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		253CFD4A3573493A11E388A5E5A93AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722E1B0D88E48FC2D0AC42C3BB5E9E41 /* JTFadingInfoView.xcconfig */;
+			baseConfigurationReference = CD7C24886D2D6D18430F85908C09A152 /* JTFadingInfoView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -983,9 +1185,129 @@
 			};
 			name = Release;
 		};
-		2D63F3EEBFE381FA659239040803A043 /* Release */ = {
+		48C1B9A9100E4F6EE99857E485185C2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0C1DBA36632AB05D46081F5B41ED16E /* UIColor-Hex.xcconfig */;
+			baseConfigurationReference = AE97BFA8D71052BD6268F2B623922727 /* UIImage+BetterAdditions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BetterAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIImage_BetterAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AD874E5790C93E895339CD7EC42E6B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7C24886D2D6D18430F85908C09A152 /* JTFadingInfoView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTFadingInfoView/JTFadingInfoView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTFadingInfoView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTFadingInfoView/JTFadingInfoView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JTFadingInfoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6F13C8A96CAA918028E42CF0594C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34744BE8CA95B1C2B8020F5C99570CEB /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C86E319B6477EACDFEFA6F7166879C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56AD67885E5886B22CC8297FF0F0E59 /* SSBouncyButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSBouncyButton/SSBouncyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSBouncyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSBouncyButton/SSBouncyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSBouncyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71CCAFE9A9233207D4B2087334945098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7C24886D2D6D18430F85908C09A152 /* JTFadingInfoView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JTFadingInfoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		746E07C39C25C02271501D3184415E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EF2B39D8D4D6DFB6F6D9603946BCCE /* UIColor-Hex.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1000,7 +1322,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = UIColor_Hex;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1008,11 +1330,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		2F4B80D1809AD9A03E707C0217865C0F /* Release */ = {
+		7D958E697973AD0D821FB4B4D2B4528E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5D7A7ECF07BE2F18022FE36CAD5B082 /* SSBouncyButton.xcconfig */;
+			baseConfigurationReference = A56AD67885E5886B22CC8297FF0F0E59 /* SSBouncyButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1037,78 +1359,9 @@
 			};
 			name = Release;
 		};
-		4117BFE9C5E7CBC60BA00F8A012F36EC /* Release */ = {
+		9473DBB7E91BB0E2A6D50B4EFD2E7F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5047CAE2943F4EBBA68022103485351 /* Pods-Dressee.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Dressee/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dressee/Pods-Dressee.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Dressee;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6AD874E5790C93E895339CD7EC42E6B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722E1B0D88E48FC2D0AC42C3BB5E9E41 /* JTFadingInfoView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JTFadingInfoView/JTFadingInfoView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JTFadingInfoView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JTFadingInfoView/JTFadingInfoView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JTFadingInfoView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71CCAFE9A9233207D4B2087334945098 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722E1B0D88E48FC2D0AC42C3BB5E9E41 /* JTFadingInfoView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JTFadingInfoView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		946186964F4089EE403B079E09C17AD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD09C7C2BFBBDA8D112CD6A4276BC6AE /* UIImage+BetterAdditions.xcconfig */;
+			baseConfigurationReference = AE97BFA8D71052BD6268F2B623922727 /* UIImage+BetterAdditions.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1133,9 +1386,9 @@
 			};
 			name = Debug;
 		};
-		A44F45A327DD3D46BB7DEE6380A11AE0 /* Release */ = {
+		9667A26D2492E21156A5A8A21D72B2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE8C03DC635A5EF0A564E57C9CF26A9 /* RAMAnimatedTabBarController.xcconfig */;
+			baseConfigurationReference = A8EF2B39D8D4D6DFB6F6D9603946BCCE /* UIColor-Hex.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1144,14 +1397,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-Hex/UIColor-Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-Hex/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = UIColor_Hex;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1159,6 +1412,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A3E0C5BC81794C33AC5529A9D6681470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C5EF0A5CA1229A0647B1BCCD0FCF6C /* Pods-Dressee.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dressee/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dressee/Pods-Dressee.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Dressee;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1201,7 +1485,7 @@
 		};
 		AB327D0D6433FBCD61FA14A2D886599C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF804FD323AB6D43429A8E37E68919C /* BRYSerialAnimationQueue.xcconfig */;
+			baseConfigurationReference = 6B677A85A75742B66EF7DC9F27C5E83B /* BRYSerialAnimationQueue.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1226,36 +1510,9 @@
 			};
 			name = Debug;
 		};
-		BA7662558B067BF984F776D2AE41BBA1 /* Debug */ = {
+		B38F03C29ECA7E6D508D5DC77119F688 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0C1DBA36632AB05D46081F5B41ED16E /* UIColor-Hex.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor-Hex/UIColor-Hex-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor-Hex/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UIColor_Hex;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C24279BF0DBD7E88598984CB3B3AF851 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C5EF0A5CA1229A0647B1BCCD0FCF6C /* Pods-Dressee.debug.xcconfig */;
+			baseConfigurationReference = E5047CAE2943F4EBBA68022103485351 /* Pods-Dressee.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1270,51 +1527,22 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Dressee/Pods-Dressee.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_Dressee;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		C2D25DAA7DD30A8ED8620C8255DBA0E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DE8C03DC635A5EF0A564E57C9CF26A9 /* RAMAnimatedTabBarController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RAMAnimatedTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		D37CDC681C9AE58AC8D8A1E4D9D908EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722E1B0D88E48FC2D0AC42C3BB5E9E41 /* JTFadingInfoView.xcconfig */;
+			baseConfigurationReference = CD7C24886D2D6D18430F85908C09A152 /* JTFadingInfoView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = JTFadingInfoView;
@@ -1324,9 +1552,37 @@
 			};
 			name = Debug;
 		};
+		DF6DE1D8C1942BC6A4D815F5DA837163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34744BE8CA95B1C2B8020F5C99570CEB /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EBC6CBC9C784D4DC8B79AA8638DDBC68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF804FD323AB6D43429A8E37E68919C /* BRYSerialAnimationQueue.xcconfig */;
+			baseConfigurationReference = 6B677A85A75742B66EF7DC9F27C5E83B /* BRYSerialAnimationQueue.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1343,33 +1599,6 @@
 				MODULEMAP_FILE = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = BRYSerialAnimationQueue;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F31C82F007C6E9CD95719E17AD5BC421 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD09C7C2BFBBDA8D112CD6A4276BC6AE /* UIImage+BetterAdditions.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIImage+BetterAdditions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UIImage_BetterAdditions;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1424,29 +1653,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A214BEB86F811A2E23C6BD50D759AE0 /* Build configuration list for PBXNativeTarget "UIColor-Hex" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA7662558B067BF984F776D2AE41BBA1 /* Debug */,
-				2D63F3EEBFE381FA659239040803A043 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0DD91BC24DB8A62BF497E7C0F4D4DFA6 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C2D25DAA7DD30A8ED8620C8255DBA0E9 /* Debug */,
-				A44F45A327DD3D46BB7DEE6380A11AE0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		183291BA7667F30FF2D96D375CFBF843 /* Build configuration list for PBXNativeTarget "BRYSerialAnimationQueue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB327D0D6433FBCD61FA14A2D886599C /* Debug */,
 				EBC6CBC9C784D4DC8B79AA8638DDBC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22579B189FFBE7A364A92A6981C63808 /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9473DBB7E91BB0E2A6D50B4EFD2E7F8B /* Debug */,
+				48C1B9A9100E4F6EE99857E485185C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1460,11 +1680,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CEAC675A87E826ED3F9036BEC4D5B57 /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */ = {
+		441B04028DF87774011A0E0E80BDA212 /* Build configuration list for PBXNativeTarget "UIColor-Hex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				946186964F4089EE403B079E09C17AD5 /* Debug */,
-				F31C82F007C6E9CD95719E17AD5BC421 /* Release */,
+				746E07C39C25C02271501D3184415E72 /* Debug */,
+				9667A26D2492E21156A5A8A21D72B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1B645A7475A0BD7F765658F0A2A87B /* Build configuration list for PBXNativeTarget "SSBouncyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C86E319B6477EACDFEFA6F7166879C0 /* Debug */,
+				7D958E697973AD0D821FB4B4D2B4528E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62C085B1B37DDE247029B4E82DA6807B /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4F45CCEF81629BCE4C4D8CFD57BC61 /* Debug */,
+				13C2B0D8A23B02F7CD687DCF8BCAB8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D96B782BB1D5774086165E228760B2 /* Build configuration list for PBXNativeTarget "Pods-Dressee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E0C5BC81794C33AC5529A9D6681470 /* Debug */,
+				B38F03C29ECA7E6D508D5DC77119F688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1478,20 +1725,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C17DA1AF2D055C744A0E5F8294C9F8F5 /* Build configuration list for PBXNativeTarget "Pods-Dressee" */ = {
+		D5F18D818A24057557509086A80D47D3 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C24279BF0DBD7E88598984CB3B3AF851 /* Debug */,
-				4117BFE9C5E7CBC60BA00F8A012F36EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E18FA72F1DF1C152A8A3EF517B9E2D49 /* Build configuration list for PBXNativeTarget "SSBouncyButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F383AA583435494E2D63AF275594880 /* Debug */,
-				2F4B80D1809AD9A03E707C0217865C0F /* Release */,
+				DF6DE1D8C1942BC6A4D815F5DA837163 /* Debug */,
+				6C6F13C8A96CAA918028E42CF0594C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

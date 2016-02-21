@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ALCameraViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BRYSerialAnimationQueue.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +52,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>34EFF23A5CB955EF0F37705A167495E1</key>
+		<key>40D77135FB2C2BC2E7588FC6417F0393</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4DD0470F428A7B4A5F7DF64D2209B596</key>
+		<key>42D342B0BEEA5C4164F37F9D2058ADE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,12 +67,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B4E81A46E666CB1929BE44B0C2AF3EF6</key>
+		<key>87330B1DCE9E3653334A1C392975BFB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C2EE26A48D038ACF02934B0034844F6B</key>
+		<key>8C5E8F368050129FD3DB54CC88842903</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF8FACBD58350F141366F23EDE35F5A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F22A70727EE95F986BBA0F31711AFC6B</key>
+		<key>F7BCE996EBFDD88C9ED98FA2AD6870EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

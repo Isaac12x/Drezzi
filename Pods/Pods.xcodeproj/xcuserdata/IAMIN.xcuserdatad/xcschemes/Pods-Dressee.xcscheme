@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '96A7C3C14B0CDB89E5AE9E75'
+               BlueprintIdentifier = '3C33222C709728ECC34FAFF2'
                BlueprintName = 'Pods-Dressee'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Dressee.framework'>

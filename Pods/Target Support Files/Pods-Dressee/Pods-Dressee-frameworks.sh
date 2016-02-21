@@ -84,6 +84,7 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Dressee/ALCameraViewController.framework"
   install_framework "Pods-Dressee/BRYSerialAnimationQueue.framework"
   install_framework "Pods-Dressee/JTFadingInfoView.framework"
   install_framework "Pods-Dressee/RAMAnimatedTabBarController.framework"
@@ -92,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Dressee/UIImage_BetterAdditions.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Dressee/ALCameraViewController.framework"
   install_framework "Pods-Dressee/BRYSerialAnimationQueue.framework"
   install_framework "Pods-Dressee/JTFadingInfoView.framework"
   install_framework "Pods-Dressee/RAMAnimatedTabBarController.framework"
