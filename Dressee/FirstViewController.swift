@@ -6,10 +6,11 @@
 //  Copyright © 2016 sfama. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import EventKit
 
-class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var displayOutfit: UIView!
     @IBOutlet weak var needPermissionView: UIView!
@@ -37,6 +38,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
 //        }
         
         checkCalendarAuthorizationStatus()
+        needPermissionView.hidden = true
         
     }
 
@@ -62,10 +64,10 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
             refreshTableView()
         case EKAuthorizationStatus.Restricted, EKAuthorizationStatus.Denied:
             // We need to help them give us permission
-            let goToSettings = NSURL(string: UIApplicationOpenSettingsURLString)
-            UIApplication.sharedApplication().openURL(goToSettings!)
-            
-            SweetAlert().showAlert("You don't garanted Access to Calendar", subTitle: "You file will permanently delete!", style: AlertStyle.Warning, buttonTitle:"Dismiss", otherButtonTitle: "")
+            SweetAlert().showAlert("You don't garanted Access to Calendar", subTitle: "You file will permanently delete!", style: AlertStyle.Warning, buttonTitle:"Dismiss")
+            self.needPermissionView.hidden = false
+            self.needPermissionView.fadeIn()
+
         }
     }
     
@@ -80,6 +82,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
                 })
             } else {
                 dispatch_async(dispatch_get_main_queue(), {
+                    self.needPermissionView.hidden = false
                     self.needPermissionView.fadeIn()
                 })
             }
@@ -94,7 +97,37 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         calendarsTableView.reloadData()
     }
     
-
-
+    /* Helper: alert display function */
+    func alertOnFailure(title: String!, message: String!){
+        let openSettingsUrl = NSURL(string: UIApplicationOpenSettingsURLString)
+        UIApplication.sharedApplication().openURL(openSettingsUrl!)
+        dispatch_async(dispatch_get_main_queue()){
+            let controller = UIAlertController(title: title, message: message, preferredStyle: .Alert)
+            controller.addAction(UIAlertAction(title: "\(openSettingsUrl)", style: .Default, handler: nil))
+            self.presentViewController(controller, animated: true, completion: nil)
+        }
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if let calendars = self.calendars {
+            return calendars.count
+        }
+        
+        return 0
+    }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("basicCell")!
+        
+        if let calendars = self.calendars {
+            let calendarName = calendars[indexPath.row].title
+            cell.textLabel?.text = calendarName
+        } else {
+            cell.textLabel?.text = "Unknown Calendar Name"
+        }
+        
+        return cell
+    }
 }
 

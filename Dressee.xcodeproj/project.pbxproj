@@ -10,11 +10,15 @@
 		01A857C5F5908F1526D01CCE /* Pods_Dressee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA6F9D043A3BAD61DEDCE4 /* Pods_Dressee.framework */; };
 		EC0AC9091C797769008E9103 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9081C797769008E9103 /* ThirdViewController.swift */; };
 		EC0AC90B1C7978E4008E9103 /* TodayOufit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */; };
-		EC0AC90D1C798C2B008E9103 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90C1C798C2B008E9103 /* ActivityView.swift */; };
 		EC0AC90F1C799B9D008E9103 /* OutfitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */; };
 		EC0AC9141C799D2A008E9103 /* DisplayOutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */; };
 		EC0AC9161C799D70008E9103 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9151C799D70008E9103 /* EventsCell.swift */; };
 		EC0AC9181C79AD9C008E9103 /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9171C79AD9C008E9103 /* WishList.swift */; };
+		EC0AC91A1C79B0D0008E9103 /* WeatherDisplayCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9191C79B0D0008E9103 /* WeatherDisplayCellController.swift */; };
+		EC0AC91C1C79B102008E9103 /* NoOutfitSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC91B1C79B102008E9103 /* NoOutfitSelected.swift */; };
+		EC0AC91E1C79B74A008E9103 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC91D1C79B74A008E9103 /* UIViewExtensions.swift */; };
+		EC0AC9201C79BAAD008E9103 /* WishListPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC91F1C79BAAD008E9103 /* WishListPictures.swift */; };
+		EC0AC9221C79C980008E9103 /* WishListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9211C79C980008E9103 /* WishListCollectionViewController.swift */; };
 		EC29CF501C793F7400B0A674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF4F1C793F7400B0A674 /* AppDelegate.swift */; };
 		EC29CF521C793F7400B0A674 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF511C793F7400B0A674 /* FirstViewController.swift */; };
 		EC29CF541C793F7400B0A674 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF531C793F7400B0A674 /* SecondViewController.swift */; };
@@ -43,11 +47,15 @@
 		D8AA6F9D043A3BAD61DEDCE4 /* Pods_Dressee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dressee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0AC9081C797769008E9103 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayOufit.swift; sourceTree = "<group>"; };
-		EC0AC90C1C798C2B008E9103 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutfitCollectionViewController.swift; sourceTree = "<group>"; };
 		EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayOutfitViewController.swift; sourceTree = "<group>"; };
 		EC0AC9151C799D70008E9103 /* EventsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
 		EC0AC9171C79AD9C008E9103 /* WishList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
+		EC0AC9191C79B0D0008E9103 /* WeatherDisplayCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDisplayCellController.swift; sourceTree = "<group>"; };
+		EC0AC91B1C79B102008E9103 /* NoOutfitSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoOutfitSelected.swift; sourceTree = "<group>"; };
+		EC0AC91D1C79B74A008E9103 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		EC0AC91F1C79BAAD008E9103 /* WishListPictures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListPictures.swift; sourceTree = "<group>"; };
+		EC0AC9211C79C980008E9103 /* WishListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListCollectionViewController.swift; sourceTree = "<group>"; };
 		EC29CF4C1C793F7400B0A674 /* Dressee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dressee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC29CF4F1C793F7400B0A674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC29CF511C793F7400B0A674 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */,
+				EC0AC91F1C79BAAD008E9103 /* WishListPictures.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -115,7 +124,6 @@
 				EC29CF531C793F7400B0A674 /* SecondViewController.swift */,
 				EC0AC9081C797769008E9103 /* ThirdViewController.swift */,
 				EC0AC9171C79AD9C008E9103 /* WishList.swift */,
-				EC0AC90C1C798C2B008E9103 /* ActivityView.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -123,11 +131,30 @@
 		EC0AC9121C799D02008E9103 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */,
-				EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */,
-				EC0AC9151C799D70008E9103 /* EventsCell.swift */,
+				EC0AC9231C79CAD7008E9103 /* CollectionCustomCells */,
+				EC0AC9241C79CAE7008E9103 /* TableCustomCells */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		EC0AC9231C79CAD7008E9103 /* CollectionCustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */,
+				EC0AC9211C79C980008E9103 /* WishListCollectionViewController.swift */,
+			);
+			name = CollectionCustomCells;
+			sourceTree = "<group>";
+		};
+		EC0AC9241C79CAE7008E9103 /* TableCustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */,
+				EC0AC9191C79B0D0008E9103 /* WeatherDisplayCellController.swift */,
+				EC0AC91B1C79B102008E9103 /* NoOutfitSelected.swift */,
+				EC0AC9151C799D70008E9103 /* EventsCell.swift */,
+			);
+			name = TableCustomCells;
 			sourceTree = "<group>";
 		};
 		EC29CF431C793F7400B0A674 = {
@@ -181,6 +208,7 @@
 				EC29CF5A1C793F7400B0A674 /* LaunchScreen.storyboard */,
 				EC29CF5D1C793F7400B0A674 /* Info.plist */,
 				EC29CF751C795B3D00B0A674 /* SweetAlert.swift */,
+				EC0AC91D1C79B74A008E9103 /* UIViewExtensions.swift */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -346,12 +374,16 @@
 				EC0AC9091C797769008E9103 /* ThirdViewController.swift in Sources */,
 				EC0AC90B1C7978E4008E9103 /* TodayOufit.swift in Sources */,
 				EC0AC90F1C799B9D008E9103 /* OutfitCollectionViewController.swift in Sources */,
-				EC0AC90D1C798C2B008E9103 /* ActivityView.swift in Sources */,
+				EC0AC9201C79BAAD008E9103 /* WishListPictures.swift in Sources */,
+				EC0AC91C1C79B102008E9103 /* NoOutfitSelected.swift in Sources */,
 				EC29CF721C79517700B0A674 /* YahooClient.swift in Sources */,
+				EC0AC91E1C79B74A008E9103 /* UIViewExtensions.swift in Sources */,
+				EC0AC9221C79C980008E9103 /* WishListCollectionViewController.swift in Sources */,
 				EC29CF741C7951A100B0A674 /* YahooConstants.swift in Sources */,
 				EC0AC9181C79AD9C008E9103 /* WishList.swift in Sources */,
 				EC29CF761C795B3D00B0A674 /* SweetAlert.swift in Sources */,
 				EC0AC9141C799D2A008E9103 /* DisplayOutfitViewController.swift in Sources */,
+				EC0AC91A1C79B0D0008E9103 /* WeatherDisplayCellController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

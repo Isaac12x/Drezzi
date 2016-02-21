@@ -9,7 +9,5 @@
 import UIKit
 
 class EventsCell: UITableViewCell {
-    @IBOutlet weak var displayEvent: String
-    @IBOutlet weak var displayEventTime: NSDate
-    
+    @IBOutlet weak var displayEvent: UILabel!
 }
