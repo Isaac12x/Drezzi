@@ -10,19 +10,34 @@ import UIKit
 import ALCameraViewController
 
 
-class SecondViewController: UICollectionViewController, UINavigationControllerDelegate {
+class SecondViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate {
 
+    @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     
     var images: [TodayOutfit]!
     
+    var image = [UIImage(named: "image1.jpg"),
+        UIImage(named: "image2.jpg"),
+        UIImage(named: "image3.jpg"),
+        UIImage(named: "image4.jpg"),
+        UIImage(named: "image5.jpg"),
+        UIImage(named: "image6.jpg"),
+        UIImage(named: "image7.jpg"),
+        UIImage(named: "image8.jpg"),
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "Logo")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
         // Do any additional setup after loading the view, typically from a nib.
         let space: CGFloat = 3.0
         let interSpace: CGFloat = 2.0
         let layoutWidth = (view.frame.size.width - (2 * space)) / 2.0
-        let layoutHeight = (view.frame.size.height - (2 * space)) / 3.0
+        let layoutHeight = (view.frame.size.height - (4 * space)) / 2.0
         
         // Flow layout interface spacing
         flowLayout.minimumInteritemSpacing = interSpace
@@ -30,6 +45,7 @@ class SecondViewController: UICollectionViewController, UINavigationControllerDe
         
         // Create item size depending on Meme View  - depending on screen
         flowLayout.itemSize = CGSizeMake(layoutWidth, layoutHeight)
+        
     }
     
     // Reload data in the collectionView
@@ -39,24 +55,23 @@ class SecondViewController: UICollectionViewController, UINavigationControllerDe
     // REQUIRED FUNCTIONS FOR COLLECTIONVIEW IMPLEMENTATION
     
     // Count the number of cells
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return images.count
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return image.count
     }
     
     // Populate your custom cell with data from the data storage
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("OutfitCell", forIndexPath: indexPath) as! OutfitCollectionViewController
-        let image = images[indexPath.item]
-        cell.outfits?.image = image.Picture
+        let img = image[indexPath.item]
+        cell.outfits?.image = img
         
         return cell
     }
     
     // Instructions to segue when pressing down into any cell
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
-        
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        // SELECT IMAGE FOR THE OUTFIT TODAY
         
     }
     
@@ -70,7 +85,6 @@ class SecondViewController: UICollectionViewController, UINavigationControllerDe
         if UIImagePickerController.isSourceTypeAvailable(.Camera) {
             let cameraButton = UIAlertAction(title: "Take Photo",
                 style: .Default) { (alert) -> Void in
-                    
                     let croppingEnabled = true
                     let cameraViewController = ALCameraViewController(croppingEnabled: croppingEnabled) { image in
                         let imagePicker = UIImagePickerController()
@@ -96,35 +110,20 @@ class SecondViewController: UICollectionViewController, UINavigationControllerDe
         imagePickerActionSheet.addAction(libraryButton)
         
         // MARK: Add Facebook
-        let facebookButton = UIAlertAction(title: "Grab From Facebook", style: .Default){ (alert) -> Void in
-            let imagePicker = UIImagePickerController()
-            imagePicker.delegate = self
-            imagePicker.sourceType = .PhotoLibrary
-            self.presentViewController(imagePicker,
-                animated: true,
-                completion: nil)
+        let facebookButton = UIAlertAction(title: "Grab From Facebook", style: .Default){
+            let url = "https://www.facebook.com"
         }
         imagePickerActionSheet.addAction(facebookButton)
         
         // MARK: Add Instagram
         let instagramButton = UIAlertAction(title: "Grab From Instagram", style: .Default){ (alert) -> Void in
-            let imagePicker = UIImagePickerController()
-            imagePicker.delegate = self
-            imagePicker.sourceType = .PhotoLibrary
-            self.presentViewController(imagePicker,
-                animated: true,
-                completion: nil)
+            
         }
         imagePickerActionSheet.addAction(instagramButton)
         
         // MARK: Add Pinterest
         let pinterestButton = UIAlertAction(title: "Grab From Pinterest", style: .Default){ (alert) -> Void in
-            let imagePicker = UIImagePickerController()
-            imagePicker.delegate = self
-            imagePicker.sourceType = .PhotoLibrary
-            self.presentViewController(imagePicker,
-                animated: true,
-                completion: nil)
+            
         }
         imagePickerActionSheet.addAction(pinterestButton)
         

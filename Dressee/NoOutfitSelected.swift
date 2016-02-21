@@ -8,8 +8,7 @@
 
 import UIKit
 
-class NoOutfitSelected: UITableViewCell {
-    
+class NoOutfitSelected: UITableViewCell {    
     @IBOutlet weak var displayView: UIView!
     @IBOutlet weak var createNewOutfit: UIButton!
     @IBOutlet weak var labeledOr: UILabel!

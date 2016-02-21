@@ -8,19 +8,23 @@
 
 import UIKit
 
-class WishList: UICollectionViewController {
+class WishList: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
+    @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     
     @IBOutlet weak var viewForPhoto: UIView!
     @IBOutlet weak var takePhoto: UIButton!
     @IBOutlet weak var displayInstruction: UILabel!
     
-    
-    var images: [WishListPictures]!
+    var images: [WishListPictures] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let logo = UIImage(named: "Logo")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
         // Do any additional setup after loading the view, typically from a nib.
         let space: CGFloat = 3.0
         let interSpace: CGFloat = 2.0
@@ -34,7 +38,7 @@ class WishList: UICollectionViewController {
         // Create item size depending on Meme View  - depending on screen
         flowLayout.itemSize = CGSizeMake(layoutWidth, layoutHeight)
         
-        if images.count > 0{
+        if images.count < 0{
             viewForPhoto.hidden = false
         } else {
             viewForPhoto.hidden = true
@@ -48,12 +52,12 @@ class WishList: UICollectionViewController {
     // REQUIRED FUNCTIONS FOR COLLECTIONVIEW IMPLEMENTATION
     
     // Count the number of cells
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return images.count
     }
     
     // Populate your custom cell with data from the data storage
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("WishListCell", forIndexPath: indexPath) as! WishListCollectionViewController
         let image = images[indexPath.item]
@@ -63,9 +67,12 @@ class WishList: UICollectionViewController {
     }
     
     // Instructions to segue when pressing down into any cell
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
         //mapView with beacons arround
+        
+        let controller = self.storyboard!.instantiateViewControllerWithIdentifier("MapViewController") as! MapViewController
+        self.presentViewController(controller, animated: true, completion: nil)
         
     }
 

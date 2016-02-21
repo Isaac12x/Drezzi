@@ -9,5 +9,5 @@
 import UIKit
 
 struct TodayOutfit {
-    var Picture: UIImage!
+    var picture: UIImage!
 }

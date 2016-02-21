@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import EventKit
 
-class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate {
+class FirstViewController: UIViewController, UITableViewDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -19,24 +19,23 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     let eventStore = EKEventStore()
     
     var calendars: [EKCalendar]?
-
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-//        self.createYourOutfit.layer.cornerRadius = 10.0
-//        
-//        if (todaysOutfit != nil){
-//            createYourOutfit.hidden = true
-//            perfectOutFitCreator.hidden = true
-//        } else{
-//            createYourOutfit.hidden = false
-//            perfectOutFitCreator.hidden = false
-//        }
+//
+//        let logo = UIImage(named: "Logo")
+//        let imageView = UIImageView(image:logo)
+//        self.navigationItem.titleView = imageView
         
         checkCalendarAuthorizationStatus()
         self.tableView.reloadData()
+    }
+    
+    // Reload data in the collectionView
+    override func viewWillAppear(animated: Bool) {
+        tableView!.reloadData()
     }
 
 
@@ -94,25 +93,40 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let calendars = self.calendars {
-            return calendars.count
-        }
-        
-        return 0
-    }
+        return 1
+//        if let calendars = self.calendars {
+//            return calendars.count
+//        }
+//        
+//        return 0
+//    }
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("basicCell")!
         
-        if let calendars = self.calendars {
-            let calendarName = calendars[indexPath.row].title
-            cell.textLabel?.text = calendarName
-        } else {
-            cell.textLabel?.text = "Unknown Calendar Name"
+        if indexPath.row == 0 || indexPath.row == 1{
+            let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "DisplayOutfitViewController")
+            return cell
+        }
+        if indexPath.row == 2 || indexPath.row == 3{
+            let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "EventsCell")
+            
+            if let calendars = self.calendars {
+                let calendarName = calendars[indexPath.row].title
+                cell.textLabel?.text = calendarName
+            } else {
+                cell.textLabel?.text = "Unknown Calendar Name"
+            }
+            
+            return cell
         }
         
-        return cell
+        if indexPath.row == 4 || indexPath.row == 5{
+            let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "WeatherDisplayCellController")
+            return cell
+        }
+        
+        
+        }
     }
 }
-
