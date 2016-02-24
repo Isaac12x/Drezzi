@@ -13,7 +13,6 @@ class WishList: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var flowLayout: UICollectionViewFlowLayout!
     
-    @IBOutlet weak var viewForPhoto: UIView!
     @IBOutlet weak var takePhoto: UIButton!
     @IBOutlet weak var displayInstruction: UILabel!
     
@@ -22,9 +21,6 @@ class WishList: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let logo = UIImage(named: "Logo")
-        let imageView = UIImageView(image:logo)
-        self.navigationItem.titleView = imageView
         // Do any additional setup after loading the view, typically from a nib.
         let space: CGFloat = 3.0
         let interSpace: CGFloat = 2.0
@@ -38,11 +34,7 @@ class WishList: UIViewController, UICollectionViewDataSource, UICollectionViewDe
         // Create item size depending on Meme View  - depending on screen
         flowLayout.itemSize = CGSizeMake(layoutWidth, layoutHeight)
         
-        if images.count < 0{
-            viewForPhoto.hidden = false
-        } else {
-            viewForPhoto.hidden = true
-        }
+
     }
     
     // Reload data in the collectionView
@@ -61,7 +53,7 @@ class WishList: UIViewController, UICollectionViewDataSource, UICollectionViewDe
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("WishListCell", forIndexPath: indexPath) as! WishListCollectionViewController
         let image = images[indexPath.item]
-        cell.wishListImage?.image = image.topPiece
+        cell.wishListImage?.image = image.wishListPicture
         
         return cell
     }

@@ -10,33 +10,21 @@ import Foundation
 import UIKit
 import EventKit
 
-class FirstViewController: UIViewController, UITableViewDelegate, UINavigationControllerDelegate {
+class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
     
     var todaysOutfit: TodayOutfit? = nil
-    let eventStore = EKEventStore()
-    
-    var calendars: [EKCalendar]?
-    
-    
+//    let eventStore = EKEventStore()
+//    
+//    var calendars: [EKCalendar]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//
-//        let logo = UIImage(named: "Logo")
-//        let imageView = UIImageView(image:logo)
-//        self.navigationItem.titleView = imageView
-        
-        checkCalendarAuthorizationStatus()
         self.tableView.reloadData()
     }
-    
-    // Reload data in the collectionView
-    override func viewWillAppear(animated: Bool) {
-        tableView!.reloadData()
-    }
+
 
 
     @IBAction func createNewOutlet(sender: AnyObject){
@@ -45,40 +33,40 @@ class FirstViewController: UIViewController, UITableViewDelegate, UINavigationCo
         let controller = self.storyboard!.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
         presentViewController(controller, animated: true, completion: nil)
     }
-
-    
-    func checkCalendarAuthorizationStatus() {
-        let status = EKEventStore.authorizationStatusForEntityType(EKEntityType.Event)
-        
-        switch (status) {
-        case EKAuthorizationStatus.NotDetermined:
-            // This happens on first-run
-            requestAccessToCalendar()
-        case EKAuthorizationStatus.Authorized:
-            // Things are in line with being able to show the calendars in the table view
-            loadCalendars()
-        case EKAuthorizationStatus.Restricted, EKAuthorizationStatus.Denied:
-            // We need to help them give us permission
-            SweetAlert().showAlert("You don't garanted Access to Calendar", subTitle: "You file will permanently delete!", style: AlertStyle.Warning, buttonTitle:"Dismiss")
-        }
-    }
-    
-    func requestAccessToCalendar() {
-        eventStore.requestAccessToEntityType(EKEntityType.Event, completion: {
-            (accessGranted: Bool, error: NSError?) in
-            
-            if accessGranted == true {
-                dispatch_async(dispatch_get_main_queue(), {
-                    self.loadCalendars()
-                    self.tableView.reloadData()
-                })
-            }
-        })
-    }
-    
-    func loadCalendars() {
-        self.calendars = eventStore.calendarsForEntityType(EKEntityType.Event)
-    }
+//
+//    
+//    func checkCalendarAuthorizationStatus() {
+//        let status = EKEventStore.authorizationStatusForEntityType(EKEntityType.Event)
+//        
+//        switch (status) {
+//        case EKAuthorizationStatus.NotDetermined:
+//            // This happens on first-run
+//            requestAccessToCalendar()
+//        case EKAuthorizationStatus.Authorized:
+//            // Things are in line with being able to show the calendars in the table view
+//            loadCalendars()
+//        case EKAuthorizationStatus.Restricted, EKAuthorizationStatus.Denied:
+//            // We need to help them give us permission
+//            SweetAlert().showAlert("You don't garanted Access to Calendar", subTitle: "You file will permanently delete!", style: AlertStyle.Warning, buttonTitle:"Dismiss")
+//        }
+//    }
+//    
+//    func requestAccessToCalendar() {
+//        eventStore.requestAccessToEntityType(EKEntityType.Event, completion: {
+//            (accessGranted: Bool, error: NSError?) in
+//            
+//            if accessGranted == true {
+//                dispatch_async(dispatch_get_main_queue(), {
+//                    self.loadCalendars()
+//                    self.tableView.reloadData()
+//                })
+//            }
+//        })
+//    }
+//    
+//    func loadCalendars() {
+//        self.calendars = eventStore.calendarsForEntityType(EKEntityType.Event)
+//    }
 
     
     /* Helper: alert display function */
@@ -94,39 +82,11 @@ class FirstViewController: UIViewController, UITableViewDelegate, UINavigationCo
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
-//        if let calendars = self.calendars {
-//            return calendars.count
-//        }
-//        
-//        return 0
-//    }
+    }
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        if indexPath.row == 0 || indexPath.row == 1{
-            let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "DisplayOutfitViewController")
-            return cell
-        }
-        if indexPath.row == 2 || indexPath.row == 3{
-            let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "EventsCell")
-            
-            if let calendars = self.calendars {
-                let calendarName = calendars[indexPath.row].title
-                cell.textLabel?.text = calendarName
-            } else {
-                cell.textLabel?.text = "Unknown Calendar Name"
-            }
-            
-            return cell
-        }
-        
-        if indexPath.row == 4 || indexPath.row == 5{
-            let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "WeatherDisplayCellController")
-            return cell
-        }
-        
-        
-        }
+        let cell = tableView.dequeueReusableCellWithIdentifier("DisplayOutfitViewController") as! DisplayOutfitViewController
+        return cell
     }
 }

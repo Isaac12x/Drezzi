@@ -11,11 +11,7 @@
 		EC0AC90B1C7978E4008E9103 /* TodayOufit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */; };
 		EC0AC90F1C799B9D008E9103 /* OutfitCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */; };
 		EC0AC9141C799D2A008E9103 /* DisplayOutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */; };
-		EC0AC9161C799D70008E9103 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9151C799D70008E9103 /* EventsCell.swift */; };
 		EC0AC9181C79AD9C008E9103 /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9171C79AD9C008E9103 /* WishList.swift */; };
-		EC0AC91A1C79B0D0008E9103 /* WeatherDisplayCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9191C79B0D0008E9103 /* WeatherDisplayCellController.swift */; };
-		EC0AC91C1C79B102008E9103 /* NoOutfitSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC91B1C79B102008E9103 /* NoOutfitSelected.swift */; };
-		EC0AC91E1C79B74A008E9103 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC91D1C79B74A008E9103 /* UIViewExtensions.swift */; };
 		EC0AC9201C79BAAD008E9103 /* WishListPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC91F1C79BAAD008E9103 /* WishListPictures.swift */; };
 		EC0AC9221C79C980008E9103 /* WishListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9211C79C980008E9103 /* WishListCollectionViewController.swift */; };
 		EC0AC9261C7A0028008E9103 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AC9251C7A0028008E9103 /* MapViewController.swift */; };
@@ -26,9 +22,8 @@
 		EC29CF591C793F7400B0A674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC29CF581C793F7400B0A674 /* Assets.xcassets */; };
 		EC29CF5C1C793F7400B0A674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC29CF5A1C793F7400B0A674 /* LaunchScreen.storyboard */; };
 		EC29CF671C793F7400B0A674 /* DresseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF661C793F7400B0A674 /* DresseeTests.swift */; };
-		EC29CF721C79517700B0A674 /* YahooClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF711C79517700B0A674 /* YahooClient.swift */; };
-		EC29CF741C7951A100B0A674 /* YahooConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF731C7951A100B0A674 /* YahooConstants.swift */; };
 		EC29CF761C795B3D00B0A674 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC29CF751C795B3D00B0A674 /* SweetAlert.swift */; };
+		ECAD1C151C7A14EA005F8AEF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD1C141C7A14EA005F8AEF /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +43,7 @@
 		EC0AC90A1C7978E4008E9103 /* TodayOufit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayOufit.swift; sourceTree = "<group>"; };
 		EC0AC90E1C799B9D008E9103 /* OutfitCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutfitCollectionViewController.swift; sourceTree = "<group>"; };
 		EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayOutfitViewController.swift; sourceTree = "<group>"; };
-		EC0AC9151C799D70008E9103 /* EventsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
 		EC0AC9171C79AD9C008E9103 /* WishList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
-		EC0AC9191C79B0D0008E9103 /* WeatherDisplayCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDisplayCellController.swift; sourceTree = "<group>"; };
-		EC0AC91B1C79B102008E9103 /* NoOutfitSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoOutfitSelected.swift; sourceTree = "<group>"; };
-		EC0AC91D1C79B74A008E9103 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		EC0AC91F1C79BAAD008E9103 /* WishListPictures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListPictures.swift; sourceTree = "<group>"; };
 		EC0AC9211C79C980008E9103 /* WishListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListCollectionViewController.swift; sourceTree = "<group>"; };
 		EC0AC9251C7A0028008E9103 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -67,9 +58,8 @@
 		EC29CF621C793F7400B0A674 /* DresseeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DresseeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC29CF661C793F7400B0A674 /* DresseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DresseeTests.swift; sourceTree = "<group>"; };
 		EC29CF681C793F7400B0A674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC29CF711C79517700B0A674 /* YahooClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooClient.swift; sourceTree = "<group>"; };
-		EC29CF731C7951A100B0A674 /* YahooConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooConstants.swift; sourceTree = "<group>"; };
 		EC29CF751C795B3D00B0A674 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		ECAD1C141C7A14EA005F8AEF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +112,7 @@
 			children = (
 				EC29CF511C793F7400B0A674 /* FirstViewController.swift */,
 				EC29CF531C793F7400B0A674 /* SecondViewController.swift */,
+				ECAD1C141C7A14EA005F8AEF /* WebViewController.swift */,
 				EC0AC9171C79AD9C008E9103 /* WishList.swift */,
 				EC0AC9251C7A0028008E9103 /* MapViewController.swift */,
 			);
@@ -150,9 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				EC0AC9131C799D2A008E9103 /* DisplayOutfitViewController.swift */,
-				EC0AC9191C79B0D0008E9103 /* WeatherDisplayCellController.swift */,
-				EC0AC91B1C79B102008E9103 /* NoOutfitSelected.swift */,
-				EC0AC9151C799D70008E9103 /* EventsCell.swift */,
 			);
 			name = TableCustomCells;
 			sourceTree = "<group>";
@@ -185,8 +173,6 @@
 				EC0AC9121C799D02008E9103 /* View */,
 				EC0AC9111C799CFC008E9103 /* Controller */,
 				EC29CF771C796D4F00B0A674 /* Assets */,
-				EC29CF711C79517700B0A674 /* YahooClient.swift */,
-				EC29CF731C7951A100B0A674 /* YahooConstants.swift */,
 			);
 			path = Dressee;
 			sourceTree = "<group>";
@@ -208,7 +194,6 @@
 				EC29CF5A1C793F7400B0A674 /* LaunchScreen.storyboard */,
 				EC29CF5D1C793F7400B0A674 /* Info.plist */,
 				EC29CF751C795B3D00B0A674 /* SweetAlert.swift */,
-				EC0AC91D1C79B74A008E9103 /* UIViewExtensions.swift */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -367,22 +352,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0AC9161C799D70008E9103 /* EventsCell.swift in Sources */,
+				ECAD1C151C7A14EA005F8AEF /* WebViewController.swift in Sources */,
 				EC29CF541C793F7400B0A674 /* SecondViewController.swift in Sources */,
 				EC29CF501C793F7400B0A674 /* AppDelegate.swift in Sources */,
 				EC29CF521C793F7400B0A674 /* FirstViewController.swift in Sources */,
 				EC0AC90B1C7978E4008E9103 /* TodayOufit.swift in Sources */,
 				EC0AC90F1C799B9D008E9103 /* OutfitCollectionViewController.swift in Sources */,
 				EC0AC9201C79BAAD008E9103 /* WishListPictures.swift in Sources */,
-				EC0AC91C1C79B102008E9103 /* NoOutfitSelected.swift in Sources */,
-				EC29CF721C79517700B0A674 /* YahooClient.swift in Sources */,
-				EC0AC91E1C79B74A008E9103 /* UIViewExtensions.swift in Sources */,
 				EC0AC9221C79C980008E9103 /* WishListCollectionViewController.swift in Sources */,
-				EC29CF741C7951A100B0A674 /* YahooConstants.swift in Sources */,
 				EC0AC9181C79AD9C008E9103 /* WishList.swift in Sources */,
 				EC29CF761C795B3D00B0A674 /* SweetAlert.swift in Sources */,
 				EC0AC9141C799D2A008E9103 /* DisplayOutfitViewController.swift in Sources */,
-				EC0AC91A1C79B0D0008E9103 /* WeatherDisplayCellController.swift in Sources */,
 				EC0AC9261C7A0028008E9103 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
